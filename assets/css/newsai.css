@@ -1,302 +1,203 @@
-
 /* Shared */
 
 * {
-  box-sizing: border-box
+    box-sizing: border-box;
 }
-
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
-
 .button {
-  border-radius: 100px;
+    border-radius: 100px;
 }
-
 .header {
-  position: fixed;
-  width: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    left: 0px;
 }
-
 .container {
-  position: relative;
-  text-align: center;
+    position: relative;
+    text-align: center;
 }
-
 .contact {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #032466;
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  cursor: pointer;
-  box-sizing: border-box;
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #032466;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
 }
-
 .button.button-primary,
 .button.button-primary:hover,
 .button.button-primary:focus {
-  background-color: #032466;
-  border-color: #032466;
+    background-color: #032466;
+    border-color: #032466;
 }
 
 /* Sections */
 .section {
-  padding: 8rem 0 7rem;
-  text-align: center;
-}
-.section-heading,
-.section-description {
-  margin-bottom: 1.2rem;
-}
-
-/* Hero */
-.phones {
-  position: relative;
-}
-.phone {
-  position: relative;
-  max-width: 80%;
-  margin: 3rem auto -12rem;
-}
-.phone + .phone {
-  display: none;
-}
-
-/* Values */
-.values {
-  background-image: url('../images/values-bg.jpg');
-  background-size: cover;
-  color: #fff;
-  padding-bottom: 5rem;
-}
-.value-multiplier {
-  margin-bottom: .5rem;
-  color: #11DFC7;
-}
-.value-heading {
-  margin-bottom: .3rem;
-}
-.value-description {
-  opacity: .8;
-  font-weight: 300;
-}
-
-/* Help */
-.get-help {
-  border-bottom: 1px solid #ddd;
-}
-
-/* Categories */
-.categories {
-  background-image: url('../images/values-bg.jpg');
-  background-size: cover;
-  color: #fff;
-}
-.categories .section-description { 
-  margin-bottom: 4rem;
+    padding: 8rem 0 7rem;
+    text-align: center;
 }
 
 /* Mobile */
 
-.header__inner:before {
-  content: '';
-  display: table;
-}
-.header__inner:after {
-  content: '';
-  display: table;
-  clear: both;
-}
 .header__inner {
-  max-width: 400px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 22px;
-  padding-right: 22px;
-}
-.header__left:nth-child(n) {
-  float: left;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 22px;
+    padding-right: 22px;
 }
 .header__left {
-  padding: 0px 0;
+    padding: 0px 0;
+    float: left;
 }
 .header__left img {
-  display: block;
-  height: 110px;
-  width: auto;
+    display: block;
+    height: 115px;
+    width: auto;
 }
 .header__right {
-  position: relative;
-  height: 78px;
+    position: relative;
+    height: 78px;
 }
-.header__right>* {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  bottom: auto;
-  left: auto;
+.header__right > * {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: auto;
+    left: auto;
 }
 .header__right a {
-  display: block;
-}
-.header__navbutton {
-  display: block;
+    display: block;
 }
 .hero {
-  padding: 22rem 0;
+    padding: 15rem 0;
 }
 .hero-heading {
-  font-size: 3.0rem;
+    font-size: 3.0rem;
 }
 .value-props {
-  margin-top: 9rem;
-  margin-bottom: 7rem;
+    margin-top: 9rem;
+    margin-bottom: 7rem;
 }
-
+h5 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    letter-spacing: -.05rem;
+}
 /* Bigger than 550 */
-@media (min-width: 550px) {
-  .section {
-    padding: 12rem 0 11rem;
-  }
-  .header__inner {
-    max-width: 450px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 22px;
-    padding-right: 22px;
-  }
-  .header__right {
-    position: relative;
-    height: 78px;
-  }
-  .hero {
-    padding-bottom: 12rem;
-    text-align: left;
-    height: 165px;
-  }
-  .phone {
-    position: absolute;
-    top: -7rem;
-    right: 3rem;
-    max-height: 362px;
-    z-index: 3;
-  }
-  .phone + .phone {
-    top: -6rem;
-    display: block;
-    max-width: 73.8%;
-    right: 0;
-    z-index: 2;
-    max-height: 338px;
-  }
-  .hero-heading {
-    font-size: 2.4rem;
-  }
-}
 
+@media(min-width: 550px) {
+    .section {
+        padding: 12rem 0 11rem;
+    }
+    .header__inner {
+        max-width: 600px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .header__right {
+        position: relative;
+        height: 78px;
+    }
+    .hero {
+        padding-bottom: 12rem;
+        text-align: left;
+        height: 165px;
+    }
+    .hero-heading {
+        font-size: 2.4rem;
+    }
+}
 /* Bigger than 750 */
-@media (min-width: 750px) {
-  .hero {
-    height: 190px;
-  }
-  .hero-heading {
-    font-size: 2.6rem;
-  }
-  .section {
-    padding: 14rem 0 15rem;
-  }
-  .header__inner {
-    max-width: 980px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 22px;
-    padding-right: 22px;
-  }
-  .header__right {
-    position: relative;
-    height: 70px;
-  }
-  .hero {
-    padding: 22rem 0;
-  }
-  .hero-heading {
-    font-size: 3.0rem;
-  }
-  .value-props {
-    margin-top: 9rem;
-    margin-bottom: 7rem;
-  }
-  .hero {
-    padding: 16rem 0 14rem;
-  }
-  .section-description {
-    max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 22px;
-    padding-right: 22px;
-  }
-  .phone {
-    top: -14rem;
-    right: 5rem;
-    max-height: 510px;
-  }
-  .phone + .phone {
-    top: -12rem;
-    max-height: 472px;
-  }
-  .categories {
-    padding: 15rem 0 8rem;
-  }
-}
 
+@media(min-width: 750px) {
+    .hero {
+        height: 190px;
+    }
+    .hero-heading {
+        font-size: 2.6rem;
+    }
+    .section {
+        padding: 14rem 0 15rem;
+    }
+    .header__inner {
+        max-width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .header__right {
+        position: relative;
+        height: 70px;
+    }
+    .hero {
+        padding: 25rem 0;
+    }
+    .hero-heading {
+        font-size: 3.0rem;
+    }
+    .value-props {
+        margin-top: 9rem;
+        margin-bottom: 7rem;
+    }
+    .hero {
+        padding: 16rem 0 14rem;
+    }
+}
 /* Bigger than 1000 */
-@media (min-width: 1000px) {
-  .section {
-    padding: 20rem 0 19rem;
-  }
-  .header__inner {
-    max-width: 980px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 22px;
-    padding-right: 22px;
-  }
-  .header__right {
-    position: relative;
-    height: 78px;
-  }
-  .hero {
-    padding: 22rem 0;
-  }
-  .hero-heading {
-    font-size: 3.1rem;
-  }
-  .value-props {
-    margin-top: 9rem;
-    margin-bottom: 7rem;
-  }
-  .phone {
-    top: -16rem;
-    max-height: 615px;
-  }
-  .phone + .phone {
-    top: -14rem;
-    max-height: 570px;
-  }
+
+@media(min-width: 1000px) {
+    .section {
+        padding: 20rem 0 19rem;
+    }
+    .header {
+        position: fixed;
+        width: 100%;
+        height: 100px;
+        top: 0px;
+        left: 0px;
+    }
+    .header__inner {
+        max-width: 900px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .header__right {
+        position: relative;
+        height: 78px;
+    }
+    .hero {
+        padding: 22rem 0;
+    }
+    .hero-heading {
+        font-size: 3.1rem;
+    }
+    .value-props {
+        margin-top: 9rem;
+        margin-bottom: 7rem;
+    }
 }
