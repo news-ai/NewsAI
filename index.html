@@ -2,10 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>NewsAI</title>
-  <meta name="description" content="News Artificial Intelligence">
-  <meta name="author" content="NewsAI">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="NewsAI - Building tools to make journalists more efficient.">
+  <meta name="author" content="NewsAI">
+
+  <meta property="og:url" content="https://newsai.org/" />
+  <meta property="og:title" content="NewsAI" />
+  <meta property="og:description" content="NewsAI is building tools to make journalists more efficient." />
+
+  <title>NewsAI</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png?v=3">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon-96x96.png?v=3">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png?v=3">
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro|Lato" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/normalize.css">
   <link rel="stylesheet" href="./assets/css/skeleton.css">
@@ -13,17 +25,46 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
+  <div class="header">
+    <header class="header__inner">
+      <div class="header__left">
+        <img src='./assets/newsai.jpg'>
+      </div>
+      <nav class="header__right">
+        <div>
+          <a class="contact" href="mailto:contact@newsai.org">Contact</a>
+        </div>
+      </nav>
+    </header>
+  </div>
   <div class="section hero">
-  <img width='300px' height='160px' src='./assets/newsai.jpg'></img>
-    <div class="container">
-      <div class="row">
-        <div class="one-half column">
-          <h4 class="hero-heading">NewsAI</h4>
-          <p>Exploring the long-term changes that can happen in the consumption and creation of news through the emergance of AI techniques, and advancements in Machine Learning.</p>
-          <!-- <a class="button button-primary" href="http://getskeleton.com">Try Skeleton</a> -->
+      <div class="container">
+        <div class="row">
+          <div class="twelve column">
+            <h4 class="hero-heading">Building tools to make journalists more efficient.</h4>
+            <a class="button button-primary" href="https://publisher.newsai.org/">Try Publisher</a>
+            <div class="value-props row">
+              <div class="four columns value-prop">
+                Algorithmically building a timeline for each event as new articles come in.
+              </div>
+              <div class="four columns value-prop">
+                Breaking news analysis.
+              </div>
+              <div class="four columns value-prop">
+                Credibility analysis and fact checking analysis.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-77059806-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </body>
 </html>
