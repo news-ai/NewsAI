@@ -1,21 +1,21 @@
 $(document).ready(function() {
-    $('#fullpage').fullpage({
-        //Navigation
-        anchors: [],
-        navigation: false,
-        fitToSection: false,
+  $('#fullpage').fullpage({
+    //Navigation
+    anchors: [],
+    navigation: false,
+    fitToSection: false,
 
-        //Scrolling
-        scrollBar: true,
-        css3: true,
+    //Scrolling
+    scrollBar: true,
+    css3: true,
 
-        //Accessibility
-        keyboardScrolling: true,
+    //Accessibility
+    keyboardScrolling: true,
 
-        //Design
-        resize: false,
-        paddingTop: '18em',
-        verticalCentered: true,
-        responsiveWidth: 1000
-    });
+    //Design
+    resize: false,
+    paddingTop: '18em',
+    verticalCentered: true,
+    responsiveWidth: 1000
+  });
 });

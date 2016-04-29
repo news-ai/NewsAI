@@ -1,12 +1,15 @@
-// TURTLE STUFF:
+function javascriptRandom(start, end) {
+  return Math.floor(Math.random() * end) + start;
+}
+
 var x, y; // the current position of the turtle
 var currentangle = 0; // which way the turtle is pointing
-var step = 20; // how much the turtle moves with each 'F'
+var step = javascriptRandom(20, 24); // how much the turtle moves with each 'F'
 var angle = 90; // how much the turtle turns with a '-' or '+'
 
 // LINDENMAYER STUFF (L-SYSTEMS)
 var thestring = 'A'; // "axiom" or start of the string
-var numloops = 5; // how many iterations to pre-compute
+var numloops = javascriptRandom(4, 8); // how many iterations to pre-compute
 var therules = []; // array for rules
 therules[0] = ['A', '-BF+AFA+FB-']; // first rule
 therules[1] = ['B', '+AF-BFB-FA+']; // second rule
@@ -14,12 +17,12 @@ therules[1] = ['B', '+AF-BFB-FA+']; // second rule
 var whereinstring = 0; // where in the L-system are we?
 
 function setup() {
-  var width = document.getElementById('fullpage').clientWidth
-  var height = document.getElementById('firstDiv').clientHeight
+  var width = document.getElementById('fullpage').clientWidth;
+  var height = document.getElementById('firstDiv').clientHeight;
   var canvas = createCanvas(width, height);
   canvas.parent('myContainer');
   background(255);
-  stroke(0, 0, 0, 1);
+  stroke(0, 1, 0, 1);
   
   // start the x and y position at lower-left corner
   x = 0;
@@ -34,7 +37,7 @@ function setup() {
 function draw() {
   
   // draw the current character in the string:
-  drawIt(thestring[whereinstring]); 
+  drawIt(thestring[whereinstring]);
   
   // increment the point for where we're reading the string.
   // wrap around at the end.
@@ -83,16 +86,16 @@ function drawIt(k) {
   }
 
   // give me some random color values:
-  var r = random(0, 20);
-  var g = random(0, 15);
-  var b = random(0, 12);
-  var a = random(0, 14);
+  var r = random(0, random(10, 40));
+  var g = random(0, random(10, 15));
+  var b = random(0, random(15, 25));
+  var a = random(0, random(14, 18));
 
   // pick a gaussian (D&D) distribution for the radius:
   var radius = 0;
-  radius += random(0, 15);
-  radius += random(0, 15);
-  radius += random(0, 15);
+  radius += random(0, random(10, 15));
+  radius += random(0, random(10, 15));
+  radius += random(0, random(10, 15));
   radius = radius/3;
   
   // draw the stuff:
