@@ -108,6 +108,9 @@ body {
 .hero-heading {
     font-size: 3.0rem;
 }
+.subtext {
+    font-size: 2.0rem;
+}
 .value-props {
     margin-top: 9rem;
     margin-bottom: 7rem;

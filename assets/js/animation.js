@@ -17,7 +17,7 @@ therules[1] = ['B', '+AF-BFB-FA+']; // second rule
 var whereinstring = 0; // where in the L-system are we?
 
 function setup() {
-  var width = document.getElementById('fullpage').clientWidth;
+  var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
   var height = document.getElementById('firstDiv').clientHeight;
   var canvas = createCanvas(width, height);
   canvas.parent('myContainer');
@@ -34,9 +34,13 @@ function setup() {
   }
 }
 
+function windowResized() {
+  var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  var height = document.getElementById('firstDiv').clientHeight;
+  resizeCanvas(width, height);
+}
+
 function draw() {
-  
-  // draw the current character in the string:
   drawIt(thestring[whereinstring]);
   
   // increment the point for where we're reading the string.
