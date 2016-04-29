@@ -13,7 +13,7 @@
     <meta property="og:title" content="NewsAI" />
     <meta property="og:description" content="NewsAI is building news intelligence tools for journalists. We aim to make tools to make journalists more efficient." />
 
-    <title>NewsAI - Building News Intelligence tools for journalists</title>
+    <title>NewsAI | Building News Intelligence tools for journalists</title>
 
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png?v=3">
     <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon-96x96.png?v=3">
@@ -27,16 +27,17 @@
 </head>
 
 <body>
+    <div id="myContainer" class="behindCanvas"></div>
     <div id="fullpage">
         <div class="active" id="home">
             <div class="header">
                 <header class="header__inner">
                     <div class="header__left">
-                        <img src='./assets/newsai.jpg'>
+                        <img src='./assets/images/newsai.png'>
                     </div>
                     <nav class="header__right">
                         <div>
-                            <a class="contact" href="mailto:contact@newsai.org">Contact</a>
+                            <a class="contact" href="mailto:hello@newsai.org">Contact</a>
                         </div>
                     </nav>
                 </header>
@@ -44,9 +45,9 @@
             <div class="section hero">
                 <div class="container">
                     <div class="row">
-                        <div class="twelve column">
+                        <div class="twelve column" id="firstDiv">
                             <div>
-                                <h4 class="hero-heading">Help make journalists more productive.</h4>
+                                <h4 class="hero-heading">Make journalists more productive</h4>
                                 <p>We use machine learning & artificial intelligence techniques to make it easier for a journalist to do their job.</p>
                                 <a class="button button-primary" target="publisher" href="https://publisher.newsai.org/">Try Publisher</a>
                             </div>
@@ -60,7 +61,7 @@
                                     <p>We look for increasing trends in social media sites to alert you when there are new stories that are developing.</p>
                                 </div>
                                 <div class="four columns value-prop">
-                                    <h5>Credibility and fact checking analysis</h5>
+                                    <h5>Credibility and fact checking</h5>
                                     <p>We utilize machine learning to fact check statements in articles for you, and find biases that can exist in articles.</p>
                                 </div>
                             </div>
@@ -72,7 +73,9 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="./assets/js/jquery.fullPage.min.js"></script>
+    <script src="./assets/js/p5.min.js"></script>
     <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/animation.js"></script>
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
