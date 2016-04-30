@@ -17,8 +17,8 @@ therules[1] = ['B', '+AF-BFB-FA+']; // second rule
 var whereinstring = 0; // where in the L-system are we?
 
 function setup() {
-  var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-  var height = document.getElementById('firstDiv').clientHeight;
+  var width = getWidth();
+  var height = getHeight();
   var canvas = createCanvas(width, height);
   canvas.parent('myContainer');
   background(255);
@@ -32,12 +32,12 @@ function setup() {
   for (var i = 0; i < numloops; i++) {
     thestring = lindenmayer(thestring);
   }
-}
-
-function windowResized() {
-  var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-  var height = document.getElementById('firstDiv').clientHeight;
-  resizeCanvas(width, height);
+  function windowResized(width, height) {
+    resizeCanvas(width, height);
+  }
+  function resizeAnimation() {
+    windowResized(getWidth(), getHeight());
+  }
 }
 
 function draw() {
@@ -90,10 +90,10 @@ function drawIt(k) {
   }
 
   // give me some random color values:
-  var r = random(0, random(10, 40));
-  var g = random(0, random(10, 15));
-  var b = random(0, random(15, 25));
-  var a = random(0, random(14, 18));
+  var r = random(0, random(2, 6));
+  var g = random(0, random(3, 7));
+  var b = random(0, random(4, 8));
+  var a = random(0, random(5, 8));
 
   // pick a gaussian (D&D) distribution for the radius:
   var radius = 0;
