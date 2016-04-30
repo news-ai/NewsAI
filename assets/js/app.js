@@ -1,10 +1,11 @@
 function getHeight() {
-  // return document.getElementById('firstDiv').clientHeight;
   return window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 }
+
 function getWidth() {
   return window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 }
+
 $(document).ready(function() {
   $('#fullpage').fullpage({
     //Navigation

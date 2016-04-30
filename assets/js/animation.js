@@ -32,12 +32,6 @@ function setup() {
   for (var i = 0; i < numloops; i++) {
     thestring = lindenmayer(thestring);
   }
-  function windowResized(width, height) {
-    resizeCanvas(width, height);
-  }
-  function resizeAnimation() {
-    windowResized(getWidth(), getHeight());
-  }
 }
 
 function draw() {
@@ -90,10 +84,10 @@ function drawIt(k) {
   }
 
   // give me some random color values:
-  var r = random(0, random(2, 6));
-  var g = random(0, random(3, 7));
-  var b = random(0, random(4, 8));
-  var a = random(0, random(5, 8));
+  var r = random(0, random(2, 5));
+  var g = random(0, random(3, 4));
+  var b = random(0, random(4, 6));
+  var a = random(0, random(5, 6));
 
   // pick a gaussian (D&D) distribution for the radius:
   var radius = 0;

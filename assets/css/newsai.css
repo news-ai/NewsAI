@@ -112,9 +112,10 @@ body {
     font-size: 2.0rem;
 }
 .value-props {
-    margin-top: 9rem;
+    background: white;
+    margin-top: 20%;
     margin-bottom: 7rem;
-    border-top: 1px solid lightgray;
+    border-top: 0.1em solid lightgray;
     padding-top: 3em;
 }
 h5 {
@@ -178,7 +179,8 @@ h5 {
         font-size: 3.0rem;
     }
     .value-props {
-        margin-top: 9rem;
+        background: white;
+        margin-top: 20%;
         margin-bottom: 7rem;
     }
     .hero {
@@ -216,7 +218,8 @@ h5 {
         font-size: 3.1rem;
     }
     .value-props {
-        margin-top: 11em;
+        background: white;
+        margin-top: 20%;
         margin-bottom: 7rem;
     }
 }
