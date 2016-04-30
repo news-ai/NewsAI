@@ -17,9 +17,7 @@ therules[1] = ['B', '+AF-BFB-FA+']; // second rule
 var whereinstring = 0; // where in the L-system are we?
 
 function setup() {
-  var width = getWidth();
-  var height = getHeight();
-  var canvas = createCanvas(width, height);
+  var canvas = createCanvas(displayWidth, displayHeight);
   canvas.parent('myContainer');
   background(255);
   stroke(0, 1, 0, 1);
