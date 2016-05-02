@@ -3,7 +3,7 @@ $(document).ready(function() {
     //Navigation
     anchors: [],
     navigation: false,
-    fitToSection: false,
+    fitToSection: true,
 
     //Scrolling
     scrollBar: true,
@@ -13,7 +13,7 @@ $(document).ready(function() {
     keyboardScrolling: true,
 
     //Design
-    resize: false,
+    resize: true,
     paddingTop: '18em',
     verticalCentered: true,
     responsiveWidth: 1100
