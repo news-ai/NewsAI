@@ -122,6 +122,57 @@ h5 {
     line-height: 1.5;
     letter-spacing: -.05rem;
 }
+
+#mc_embed_signup .button {
+    clear: both;
+    background-color: #aaa;
+    border: 0 none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    /*margin: 10px 0px 10px 0;*/
+    /*padding: 0 22px;*/
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    /*width: auto;*/
+}
+#mc_embed_signup .mc-field-group input {
+    /*display: block;*/
+    /*width: 100%;*/
+    /*padding: 8px 0;*/
+    text-indent: 2%;
+}
+#mc_embed_signup input.mce_inline_error {
+    border-color: #6B0505;
+}
+#mc_embed_signup input {
+    border: 1px solid #999;
+    -webkit-appearance: none;
+}
+#mc_embed_signup .mc-field-group label {
+    display: block;
+    margin-bottom: 3px;
+}
+#mc-embedded-subscribe{
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+
+#mce-EMAIL{
+    padding: 8px 0;
+    display: inline-block;
+    width: 50%;
+}
+
 /* Bigger than 550 */
 
 @media(min-width: 550px) {
@@ -184,6 +235,18 @@ h5 {
     .hero {
         padding: 16rem 0 14rem;
     }
+    #mc-embedded-subscribe{
+        display: inline-block;
+        width: 30%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #mce-EMAIL{
+        padding: 8px 0;
+        display: inline-block;
+        width: 40%;
+    }
 }
 /* Bigger than 1000 */
 
@@ -210,13 +273,25 @@ h5 {
         height: 78px;
     }
     .hero {
-        padding: 22rem 0;
+        padding: 18rem 0;
     }
     .hero-heading {
         font-size: 3.1rem;
     }
     .value-props {
         background: white;
-        margin-top: 15%;
+        margin-top: 6%;
+    }
+    #mc-embedded-subscribe{
+        display: inline-block;
+        width: 20%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #mce-EMAIL{
+        padding: 8px 0;
+        display: inline-block;
+        width: 30%;
     }
 }

@@ -14,7 +14,7 @@ $(document).ready(function() {
 
     //Design
     resize: true,
-    paddingTop: '18em',
+    paddingTop: '10em',
     verticalCentered: true,
     responsiveWidth: 1100
   });
