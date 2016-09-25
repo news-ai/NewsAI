@@ -1,7 +1,5 @@
-jQuery(function($) {
-    $('#download-button').localScroll({
-        duration: 1000
-    });
+window.Intercom("boot", {
+  app_id: "ur8dbk9e"
 });
 
 function alturaMaxima() {
