@@ -63,7 +63,7 @@
                     <div class="service-icon">
                         <i class="social_facebook"></i>
                     </div>
-                    <h3>Social (beta)</h3>
+                    <h3>Social</h3>
                     <p>Hook up social information to your contacts and know when their profiles are updated.</p>
                 </div>
                 <div class="col-md-4 single-service">
@@ -77,7 +77,7 @@
                     <div class="service-icon">
                         <i class="social_rss"></i>
                     </div>
-                    <h3>Pull in stories (beta)</h3>
+                    <h3>Pull in stories</h3>
                     <p>Get an influencer’s latest story. We'll pull in their latest story for you.</p>
                 </div>
             </div>
@@ -108,12 +108,14 @@
                 </div>
             </div>
         </div>
+        <br>
     </section>
     <section class="packages grey-bg" id="packages">
         <div class="container">
             <div class="pricing-section-header">
-                <h2 class="dark-text">Pricing</h2>
-                <div class="annually-monthly-switch"><label class="active">Annually</label><div class="annually"><span></span></div><label>Monthly</label></div>
+                <h2 class="dark-text">Simple and Flexible Pricing</h2>
+                <div class="annually-monthly-switch" onclick="changePricingClass()"><label id="annuallyLabel" class="active">Annually</label><div id="pricingClass" class="annually"><span></span></div><label id="monthlyLabel">Monthly</label></div>
+                <p>Save 20% off by signing up with our annual package!</p>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-4">  
@@ -123,7 +125,7 @@
                         Personal </h3>
                         
                         <div class="price">
-                            <h2><span class="sign">$</span>7.99 <span class="month">/month</span></h2>
+                            <h2><span class="sign">$</span><span id="personalPrice">7.99</span> <span class="month">/month</span></h2>
                         </div>
                         <ul class="package-feature">
                             <li><span class="main-color icon_check_alt2"></span>Contact & media list management</li>
@@ -149,7 +151,7 @@
                         
                         <div class="price">
                             <div class="color-bg">
-                                <h2><span class="sign">$</span>39.99 <span class="month">/month</span></h2>
+                                <h2><span class="sign">$</span><span id="businessPrice">39.99</span> <span class="month">/month</span></h2>
                             </div>
                         </div>
                         
@@ -168,7 +170,7 @@
                         Ultimate </h3>
                         
                         <div class="price">
-                            <h2><span class="sign">$</span>63.99 <span class="month">/month</span></h2>
+                            <h2><span class="sign">$</span><span id="ultimatePrice">63.99</span> <span class="month">/month</span></h2>
                         </div>
                         
                         <ul class="package-feature">
