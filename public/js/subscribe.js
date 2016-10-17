@@ -14,10 +14,11 @@ if (unique_id !== '' || code) {
     }
 
     $.getJSON('/a/position/' + id, function(data) {
-        document.getElementById("linePosition").innerHTML = data.position;
+        document.getElementById('linePosition').innerHTML = data.position;
     });
 
-    document.getElementById("subscribe").style.display = 'block';
+    document.getElementById('twitter_link').setAttribute('data-url', 'https://www.newsai.org/?invite=' + id);
+    document.getElementById('subscribe').style.display = 'block';
 } else {
-    document.getElementById("check-position").style.display = 'block';
+    document.getElementById('check-position').style.display = 'block';
 }

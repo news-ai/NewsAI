@@ -21,9 +21,9 @@ chimp = chimpy.Connection(API_KEY)
 class User(ndb.Model):
     email = ndb.StringProperty()
     date = ndb.DateTimeProperty(auto_now_add=True)
-    number_invited = ndb.IntegerProperty()
-    invited_by = ndb.StringProperty()
-    position = ndb.IntegerProperty()
+    number_invited = ndb.IntegerProperty(default=0)
+    invited_by = ndb.StringProperty(default='')
+    position = ndb.IntegerProperty(default=0)
 
 
 class Line(ndb.Model):
@@ -51,15 +51,13 @@ def get_curent_position_and_append():
 def get_invite_user(user_id):
     # Filter user
     user = User.get_by_id(id=int(user_id))
-
     # If the user does not exist then return it
-    if not user:
-        return 0
-
-    # If the user exists then append the number of people they have invited
-    user.number_invited += 1
-    user.put()
-    return user.key.id()
+    if user:
+        # If the user exists then append the number of people they have invited
+        user.number_invited += 1
+        user.put()
+        return user.key.id()
+    return ''
 
 
 def add_new_user(email, invited_by):
@@ -95,6 +93,8 @@ def subscribe():
 
             if invite_code:
                 invite_code = get_invite_user(invite_code)
+            else:
+                invite_code = ''
             try:
                 # Email does not exist in Mailchimp
                 chimp.list_subscribe(
@@ -115,7 +115,7 @@ def subscribe():
             return render_template('subscribe.html', unique_id=user_unique_id)
 
         # Means that the email is invalid. We tell the user
-        return render_template('subscribe.html', error='Email is invalid!', unique_id=user_unique_id)
+        return render_template('subscribe.html', error='Email is invalid!', unique_id='')
 
     # If it is any other method but POST
     return render_template('subscribe.html', unique_id='')
