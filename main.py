@@ -70,10 +70,10 @@ def subscribe():
             return render_template('subscribe.html', unique_id=user_unique_id)
 
         # Means that the email is invalid. We tell the user
-        return render_template('subscribe.html', error='Email is invalid!')
+        return render_template('subscribe.html', error='Email is invalid!', unique_id=user_unique_id)
 
     # If it is any other method but POST
-    return render_template('subscribe.html')
+    return render_template('subscribe.html', unique_id='')
 
 
 @app.errorhandler(500)
