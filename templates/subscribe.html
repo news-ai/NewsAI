@@ -33,8 +33,16 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=232879317127042";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <div class="alert alert-danger" id="error" style="display: none;">
-      Indicates a dangerous or potentially negative action.
+      Email you entered is invalid!
     </div>
     <section class="features grey-bg" id="features">
         <div class="section-header" id="check-position" style="display: none;">
@@ -69,7 +77,8 @@
             <p>Thanks so much for signing up! We're very excited for you to try our platform.</p>
             <p>You are currently number <span id="linePosition"></span> in line. If you share on social media with your invite code - we'll move you up in the line!</p>
 
-            <a href="https://twitter.com/share" class="twitter-share-button" data-text="I just found a great product that helps me manage my media lists! Check it out" data-url="https://www.newsai.org/?invite={{unique_id}}" data-via="newsaihq" data-show-count="false" id="twitter_link">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <p><a href="https://twitter.com/share" class="twitter-share-button" data-text="I just found a great product that helps me manage my media lists! Check it out" data-url="https://www.newsai.org/?invite={{unique_id}}" data-via="newsaihq" data-show-count="false" id="twitter_link">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+            <p><div class="fb-share-button" data-href="https://www.newsai.org/" data-layout="button" data-size="small" data-mobile-iframe="true"><a id="facebook_link" class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.newsai.org%2F%3Finvite%3D22&amp;src=sdkpreparse">Blabber t&#039; yer mates</a></div></p>
         </div>
         <div class="container">
         </div>

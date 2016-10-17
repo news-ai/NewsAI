@@ -98,7 +98,7 @@ def subscribe():
             try:
                 # Email does not exist in Mailchimp
                 chimp.list_subscribe(
-                    LIST_ID, email[1], {'FIRST': '', 'LAST': ''}, double_optin=False)
+                    LIST_ID, email[1], {'FIRST': '', 'LAST': ''}, double_optin=True)
                 user_unique_id = add_new_user(email[1], invite_code)
                 # Add to datastore & return unique ID
             except chimpy.ChimpyException:
