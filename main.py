@@ -112,13 +112,13 @@ def subscribe():
                     # If they are there then get their unique id
                     user_unique_id = q.key.id()
                 # Render template
-            return render_template('subscribe.html', unique_id=user_unique_id)
+            return render_template('subscribe.html', unique_id=user_unique_id, error='')
 
         # Means that the email is invalid. We tell the user
-        return render_template('subscribe.html', error='Email is invalid!', unique_id='')
+        return render_template('subscribe.html', unique_id='', error='Email you entered is invalid!')
 
     # If it is any other method but POST
-    return render_template('subscribe.html', unique_id='')
+    return render_template('subscribe.html', unique_id='', error='')
 
 
 @app.errorhandler(500)
