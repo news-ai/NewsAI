@@ -25,10 +25,32 @@ class User(ndb.Model):
     position = ndb.IntegerProperty()
 
 
+class Line(ndb.Model):
+    name = ndb.StringProperty()
+    current_position = ndb.IntegerProperty()
+
+
+def create_new_line():
+    new_line = Line()
+    new_line.name = 'tabulae'
+    new_line.current_position = 100
+    new_line.put()
+
+
+def get_curent_position_and_append():
+    q = Line.query(Line.name == 'tabulae').get()
+    if q is not None:
+        current_position = q.current_position
+        q.current_position += 1
+        q.put()
+        return current_position
+    return 100
+
+
 def add_new_user(email):
     new_user = User()
     new_user.number_invited = 0
-    new_user.position = 0
+    new_user.position = get_curent_position_and_append()
     new_user.email = email
     new_user.put()
     return new_user.key.id()
