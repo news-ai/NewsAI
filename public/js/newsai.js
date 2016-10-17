@@ -74,3 +74,9 @@ function changePricingClass() {
         document.getElementById("ultimatePrice").innerHTML = "63.99";
     }
 }
+
+// Check if there's an invitation code
+var inviteCode = $.urlParam('invite');
+if (inviteCode) {
+    document.getElementById("mce-INVITE").value = inviteCode;
+}

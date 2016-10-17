@@ -22,6 +22,7 @@ class User(ndb.Model):
     email = ndb.StringProperty()
     date = ndb.DateTimeProperty(auto_now_add=True)
     number_invited = ndb.IntegerProperty()
+    invited_by = ndb.StringProperty()
     position = ndb.IntegerProperty()
 
 
@@ -47,11 +48,29 @@ def get_curent_position_and_append():
     return 100
 
 
-def add_new_user(email):
+def get_invite_user(user_id):
+    # Filter user
+    user = User.get_by_id(id=int(user_id))
+
+    # If the user does not exist then return it
+    if not user:
+        return 0
+
+    # If the user exists then append the number of people they have invited
+    user.number_invited += 1
+    user.put()
+    return user.key.id()
+
+
+def add_new_user(email, invited_by):
     new_user = User()
     new_user.number_invited = 0
     new_user.position = get_curent_position_and_append()
     new_user.email = email
+
+    if invited_by:
+        new_user.invited_by = str(invited_by)
+
     new_user.put()
     return new_user.key.id()
 
@@ -69,14 +88,18 @@ def subscribe():
     if request.method == 'POST':
         # Parse email
         email = request.form['EMAIL']
+        invite_code = request.form['INVITE']
         email = parseaddr(email)
         if len(email) > 1 and email[1] != '' and validate_email(email[1]):
             user_unique_id = ''
+
+            if invite_code:
+                invite_code = get_invite_user(invite_code)
             try:
                 # Email does not exist in Mailchimp
                 chimp.list_subscribe(
                     LIST_ID, email[1], {'FIRST': '', 'LAST': ''}, double_optin=False)
-                user_unique_id = add_new_user(email[1])
+                user_unique_id = add_new_user(email[1], invite_code)
                 # Add to datastore & return unique ID
             except chimpy.ChimpyException:
                 # Email already exists in Mailchimp
@@ -84,7 +107,7 @@ def subscribe():
                 q = User.query(User.email == email[1]).get()
                 if q is None:
                     # If can't find the user then add them to our platform
-                    user_unique_id = add_new_user(email[1])
+                    user_unique_id = add_new_user(email[1], invite_code)
                 else:
                     # If they are there then get their unique id
                     user_unique_id = q.key.id()
