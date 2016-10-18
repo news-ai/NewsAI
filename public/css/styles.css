@@ -649,7 +649,7 @@ footer .social-icons li a {
 }
 
 .app-brief {
-    padding-top: 110px;
+    padding-top: 55px;
     padding-bottom: 60px;
 }
 
@@ -689,4 +689,13 @@ footer .social-icons li a {
 .app-brief .left-align .feature-list li i {
     margin-right: 10px;
     vertical-align: inherit;
+}
+
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    margin-top: 20px;
 }
