@@ -3,10 +3,13 @@ import logging
 from email.utils import parseaddr
 
 # Third-party app imports
+import sendgrid
+import urllib2 as urllib
 from chimpy import chimpy
 from validate_email import validate_email
 from flask import Flask, request, render_template, jsonify
 from google.appengine.ext import ndb
+from sendgrid.helpers.mail import Email, Content, Substitution, Mail
 
 # Initialize Flask
 app = Flask(__name__)
@@ -15,6 +18,11 @@ app = Flask(__name__)
 API_KEY = '8d3b59fca89a824d683d235d9e682a9d-us13'
 LIST_ID = 'c7ff40b080'
 chimp = chimpy.Connection(API_KEY)
+
+# Initialize Sendgrid
+SENDGRID_API_KEY = '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'
+SENDGRID_SENDER = 'Abhi from NewsAI <abhi@newsai.org>'
+sg = sendgrid.SendGridAPIClient(apikey=SENDGRID_API_KEY)
 
 
 # Model for User
@@ -73,6 +81,25 @@ def add_new_user(email, invited_by):
     return new_user.key.id()
 
 
+def email_interest_email(email, user_code):
+
+    print email
+    print user_code
+
+    subject = "Thanks for your interest!"
+    to_email = Email(email)
+    content = Content("text/html", "Hi!")
+    mail = Mail(Email(SENDGRID_SENDER, "Abhi from NewsAI"), subject, to_email, content)
+    mail.personalizations[0].add_substitution(
+        Substitution("{USER_CODE}", str(user_code)))
+    mail.set_template_id("da0f3729-27ba-4ddf-94c7-d7faf4bb26e5")
+    try:
+        response = sg.client.mail.send.post(request_body=mail.get())
+    except urllib.HTTPError as e:
+        print e
+    return
+
+
 @app.route('/a/position/<user_id>', methods=['GET'])
 def get_position(user_id):
     user = User.get_by_id(id=int(user_id))
@@ -98,9 +125,13 @@ def subscribe():
             try:
                 # Email does not exist in Mailchimp
                 chimp.list_subscribe(
-                    LIST_ID, email[1], {'FIRST': '', 'LAST': ''}, double_optin=True)
-                user_unique_id = add_new_user(email[1], invite_code)
+                    LIST_ID, email[1], {'FIRST': '', 'LAST': ''}, double_optin=False)
+
                 # Add to datastore & return unique ID
+                user_unique_id = add_new_user(email[1], invite_code)
+
+                # This is a new user so send them an email
+                email_interest_email(email[1], user_unique_id)
             except chimpy.ChimpyException:
                 # Email already exists in Mailchimp
                 # now get it from datastore
