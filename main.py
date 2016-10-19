@@ -139,6 +139,9 @@ def subscribe():
                 if q is None:
                     # If can't find the user then add them to our platform
                     user_unique_id = add_new_user(email[1], invite_code)
+
+                    # This is a new user so send them an email
+                    email_interest_email(email[1], user_unique_id)
                 else:
                     # If they are there then get their unique id
                     user_unique_id = q.key.id()
