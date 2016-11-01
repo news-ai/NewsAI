@@ -1,10 +1,16 @@
 application: newsai-main-site
-version: 2
+version: 3
 runtime: python27
 api_version: 1
 threadsafe: yes
 
 handlers:
+- url: /blog/(.*)/$
+  static_files: public/blog/\1/index.html
+  upload: /blog/.*\.html$
+- url: /blog
+  static_files: public/blog/index.html
+  upload: public/blog/index.html
 - url: /a/(.*)
   script: main.app
 - url: /(.+)
@@ -13,6 +19,12 @@ handlers:
 - url: /
   static_files: public/index.html
   upload: public/index.html
+- url: /blog/css
+  static_dir: public/blog/css
+- url: /blog/js
+  static_dir: public/blog/js
+- url: /blog/images
+  static_dir: public/blog/images
 
 skip_files:
 - ^(.*/)?app\.yaml
