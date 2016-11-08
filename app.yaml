@@ -8,6 +8,9 @@ handlers:
 - url: /blog/(.*)/$
   static_files: public/blog/\1/index.html
   upload: /blog/.*\.html$
+- url: /blog/
+  static_files: public/blog/index.html
+  upload: public/blog/index.html
 - url: /blog
   static_files: public/blog/index.html
   upload: public/blog/index.html
