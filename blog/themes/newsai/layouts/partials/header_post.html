@@ -3,16 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="NewsAI is a news intelligence platform for public relations professionals to streamline the process of monitoring news, finding influencers, and building media lists for their clients.">
+
+    <meta itemprop="name" content="{{ .Title }} - NewsAI"/>
+    <meta itemprop="description" content="{{ .Description }}"/>
+    <meta itemprop="url" content="{{ .Permalink }}"/>
+
+    <meta name="description" content="{{ .Description }}">
     <meta name="keywords" content="Public Relations, News Intelligence, News, Artificial Intelligence, News Artificial Intelligence">
-    <meta name="author" content="NewsAI">
+    <meta name="author" content="{{ .Params.author_name }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <meta property="og:url" content="https://newsai.co/" />
-    <meta property="og:title" content="NewsAI" />
-    <meta property="og:description" content="NewsAI is a news intelligence platform for public relations professionals to streamline the process of monitoring news, finding influencers, and building media lists for their clients. " />
+    <meta property="og:type" content="article"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:title" content="{{ .Title }} - NewsAI" />
+    <meta property="og:description" content="{{ .Description }}" />
 
-    <title>NewsAI - Blog</title>
+    <meta name="twitter:domain" content="www.newsai.co"/>
+    <meta name="twitter:title" content="{{ .Title }} - NewsAI"/>
+    <meta name="twitter:description" content="{{ .Description }}"/>
+    <meta name="twitter:creator" content="@{{ .Params.author_twitter }}"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="{{ .Params.author_main_image }}"/>
+
+    <noscript itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <meta itemprop="url" content="{{ .Params.author_website }}"/>
+        <meta itemprop="name" content="{{ .Params.author_name }}"/>
+        <meta itemprop="description" content="{{ .Params.author_description }}"/>
+    </noscript>
+
+    <link rel="alternate" type="application/rss+xml" title="NewsAI Blog Feed" href="https://www.newsai.co/blog/index.xml" />
+
+    <title>NewsAI - {{ .Title }}</title>
 
     <link rel="icon" href="https://www.newsai.co/images/favicon.ico">
     <link rel="apple-touch-icon" href="https://www.newsai.co/images/apple-touch-icon.png">
@@ -29,8 +51,6 @@
     <!-- <link rel="stylesheet" href="https://www.newsai.co/css/responsive.css"> -->
 
     <link rel="stylesheet" href="/blog/css/main.css">
-
-    <link rel="alternate" type="application/rss+xml" title="NewsAI Blog Feed" href="https://www.newsai.co/blog/index.xml" />
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/ur8dbk9e';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>

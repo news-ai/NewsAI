@@ -2,9 +2,13 @@
 date = "2016-11-08T11:00:00+07:00"
 draft = true
 title = "The Hunger Game: the Fashion Influencer edition"
+description = "How do you know which influencer is generating content that is above-and-beyond the average?"
 
 author_name = "Julie Pan"
 author_twitter = "julie_panda"
+author_main_image = "https://cloud.githubusercontent.com/assets/7796312/20046865/94cee486-a47c-11e6-9ead-2075de3ca2cd.png"
+author_website = "http://ycp217.github.io/"
+author_description = "Julie recently graduated from New York University with a degree in Computer Science. She is the co-founder of NewsAI."
 
 +++
 
