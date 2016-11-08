@@ -5,6 +5,12 @@ api_version: 1
 threadsafe: yes
 
 handlers:
+- url: /privacy/
+  static_files: public/privacy.html
+  upload: public/privacy.html
+- url: /privacy
+  static_files: public/privacy.html
+  upload: public/privacy.html
 - url: /blog/(.*)/$
   static_files: public/blog/\1/index.html
   upload: /blog/.*\.html$

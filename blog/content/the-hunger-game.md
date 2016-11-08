@@ -10,6 +10,9 @@ author_main_image = "https://cloud.githubusercontent.com/assets/7796312/20046865
 author_website = "http://ycp217.github.io/"
 author_description = "Julie recently graduated from New York University with a degree in Computer Science. She is the co-founder of NewsAI."
 
+tags = "influencers"
+seo_tags = "influencers, "
+
 +++
 
 Everyone is an fashion influencer nowadays, but no two fashion influencers are created the same. Once you carefully curate a massive list of influencers whose style matches your brand's message, but working with a limited influencer budget, how do you know which influencer is generating content that is above-and-beyond the average?

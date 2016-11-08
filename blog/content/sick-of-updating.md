@@ -10,6 +10,10 @@ author_main_image = "https://static.pexels.com/photos/7075/people-office-group-t
 author_website = "https://medium.com/@jordanyr"
 author_description = "Media and technology culturalist. Content marketing outlaw. Current grad school student. :-)."
 
+tags = "media list management, media lists, PR workflow"
+
+seo_tags = "media list management, media lists, PR workflow, "
+
 +++
 
 Not all companies have a central repository and in the cutthroat world of high powered PR, sharing information might can be a tricky task. Often times lists are stored in Excel sheets or emails and contact information is updated on an individual basis. This process is cumbersome and we want the PR professionals to know that we’re actively developing the solution. These are why we believe an update function is highly important.
