@@ -1,6 +1,18 @@
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 {{ partial "_google-analytics.html" . }}
-
+<script type='application/ld+json'> 
+    {
+      "@context": "http://www.schema.org",
+      "@type": "Organization",
+      "name": "NewsAI blog",
+      "url": "https://www.newsai.co/blog",
+      "sameAs": [
+        "https://newsai.co/blog"
+      ],
+      "logo": "https://storage.googleapis.com/newsai-main-site/newsai.png",
+      "description": "NewsAI is a news intelligence platform for public relations professionals to streamline the process of monitoring news, finding influencers, and building media lists for their clients."
+    }
+</script>
 <!-- Start of Async HubSpot Analytics Code -->
   <script type="text/javascript">
     (function(d,s,i,r) {
