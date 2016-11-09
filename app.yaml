@@ -5,6 +5,12 @@ api_version: 1
 threadsafe: yes
 
 handlers:
+- url: /termsofservice/
+  static_files: public/termsofservice.html
+  upload: public/termsofservice.html
+- url: /termsofservice
+  static_files: public/termsofservice.html
+  upload: public/termsofservice.html
 - url: /privacy/
   static_files: public/privacy.html
   upload: public/privacy.html
