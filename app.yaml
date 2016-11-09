@@ -11,6 +11,12 @@ handlers:
 - url: /privacy
   static_files: public/privacy.html
   upload: public/privacy.html
+- url: /blog/feed/
+  static_files: public/blog/index.xml
+  upload: public/blog/index.xml
+- url: /blog/feed
+  static_files: public/blog/index.xml
+  upload: public/blog/index.xml
 - url: /blog/(.*)/$
   static_files: public/blog/\1/index.html
   upload: /blog/.*\.html$
