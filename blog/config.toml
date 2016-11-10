@@ -1,3 +1,7 @@
 baseurl = "https://www.newsai.co/blog"
 languageCode = "en-us"
 title = "NewsAI"
+
+theme = "newsai"
+disableSitemap = false
+disableRSS = false

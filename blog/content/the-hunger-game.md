@@ -17,7 +17,7 @@ seo_tags = "influencers, "
 
 Everyone is an fashion influencer nowadays, but no two fashion influencers are created the same. Once you carefully curate a massive list of influencers whose style matches your brand's message, but working with a limited influencer budget, how do you know which influencer is generating content that is above-and-beyond the average?
 
-I started out with the assumption that with an influencer with more followers should be getting more likes/comments on average, and you can generate a trend line based on a large enough sample size on what is the average number of likes/comments an influencer with X followers should be getting.
+I started out with the assumption that an influencer with more followers should be getting more likes/comments on average, and you can generate a trend line based on a large enough sample size on what is the average number of likes/comments an influencer with X followers should be getting.
 
 How I did it:
 I generated a trend line with a fairly small sample of 47 fashion influencers of various follower count (20K - 750k) after collecting a day's (November 6th) worth of likes, comments, # of posts of all the influencers. After generating the graph, I sorted the influencers by those above the line and those below it.

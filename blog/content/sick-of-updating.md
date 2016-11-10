@@ -8,7 +8,7 @@ author_name = "Jordan Yue"
 author_twitter = "jordanftw_yr"
 author_main_image = "https://static.pexels.com/photos/7075/people-office-group-team.jpg"
 author_website = "https://medium.com/@jordanyr"
-author_description = "Media and technology culturalist. Content marketing outlaw. Current grad school student. :-)."
+author_description = "Jordan is a media and technology culturalist. Content marketing outlaw. He is currently a grad school student. :-)."
 
 tags = "media list management, media lists, PR workflow"
 
