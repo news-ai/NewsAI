@@ -2,12 +2,11 @@
 {{ if isset .Params "cover_image" }}
 <div class="article-cover">
     <div>
-        <img src="/images/{{ .Params.cover_image }}" class="image">
+        <img src="{{ .Params.cover_image }}" class="image">
     </div>
 </div>
 {{ end }}
 <article>
-
     <div class="container">
         <header>
             <div class="meta">
@@ -33,13 +32,8 @@
             </address>
         </footer>
 
-<!--         <section>
-            <h2>Related posts</h2>
-            <p>Hi</p>
-        </section> -->
-
         <section>
-            <p>Derive more value from your media lists. Our PR CRM is the best way to know what the influencers in your media lists are posting online. Subscribe to our blog:</p>
+            <p>Derive more value from your media lists. Our PR CRM is the best way to know what the influencers in your media lists are posting online. Get PR tips and tricks through email!</p>
             <!-- Begin MailChimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
             <style type="text/css">
@@ -59,6 +53,12 @@
             </div>
             <!--End mc_embed_signup-->
         </section>
+        <br>
+
+<!--         <section>
+        <h3>Related Posts</h3>
+        </section> -->
+
         <br>
         <section>
             {{ partial "_disqus.html" . }}

@@ -10,7 +10,7 @@ author_main_image = "https://static.pexels.com/photos/7075/people-office-group-t
 author_website = "https://medium.com/@jordanyr"
 author_description = "Jordan is a media and technology culturalist. Content marketing outlaw. He is currently a grad school student. :-)."
 
-tags = "media list management, media lists, PR workflow"
+tags = ["media list management", "media lists", "PR workflow"]
 
 seo_tags = "media list management, media lists, PR workflow, "
 

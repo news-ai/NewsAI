@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NewsAI</title>
-    <link>https://www.newsai.co/blog/index.xml</link>
+    <link>https://www.newsai.co/blog/tags/media-lists/index.xml</link>
     <description>Recent content on NewsAI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Aug 2016 14:19:00 +0700</lastBuildDate>
-    <atom:link href="https://www.newsai.co/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.newsai.co/blog/tags/media-lists/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Sick of Updating? 4 Ways We’re Trying to Take The Pain Away From It</title>
