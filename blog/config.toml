@@ -6,3 +6,5 @@ theme = "newsai"
 disableSitemap = false
 disableRSS = false
 CanonifyUrls = true
+
+enableRobotsTXT = true
