@@ -1,9 +1,12 @@
 {{ partial "header.html" . }}
 
 <article class="container">
-  {{ range first 10 .Data.Pages }}
+  {{ range (.Paginator 10).Pages }}
     {{ .Render "summary" }}
   {{ end }}
 </article>
+<center>
+{{ template "_internal/pagination.html" . }}
+</center>
 
 {{ partial "footer.html" . }}

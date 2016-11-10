@@ -11,6 +11,7 @@ author_website = "https://medium.com/@jordanyr"
 author_description = "Jordan is a media and technology culturalist. Content marketing outlaw. He is currently a grad school student. :-)."
 
 categories = ["Productivity"]
+series = ["Productivity"]
 tags = ["media list management", "media lists", "PR workflow"]
 seo_tags = "media list management, media lists, PR workflow, "
 

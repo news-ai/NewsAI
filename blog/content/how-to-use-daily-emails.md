@@ -10,6 +10,7 @@ author_website = "https://abhi.co/"
 author_description = ""
 
 categories = ["How to"]
+series = ["How To"]
 tags = ["Email templates", "How to"]
 seo_tags = "media list, how to, "
 

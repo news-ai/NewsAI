@@ -10,6 +10,7 @@ author_website = "http://ycp217.github.io/"
 author_description = "Julie recently graduated from New York University with a degree in Computer Science. She is the co-founder of NewsAI."
 
 categories = ["How to"]
+series = ["How To"]
 tags = ["Instagram", "Trendline", "How to"]
 seo_tags = "instagram trendline, "
 
