@@ -9,6 +9,7 @@ author_main_image = "https://static.pexels.com/photos/7075/people-office-group-t
 author_website = "https://abhi.co/"
 author_description = ""
 
+categories = ["How to"]
 tags = ["Media List", "How to"]
 seo_tags = "media list, how to, "
 

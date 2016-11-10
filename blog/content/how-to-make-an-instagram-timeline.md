@@ -9,6 +9,7 @@ author_main_image = "https://cloud.githubusercontent.com/assets/7796312/20083977
 author_website = "http://ycp217.github.io/"
 author_description = "Julie recently graduated from New York University with a degree in Computer Science. She is the co-founder of NewsAI."
 
+categories = ["How to"]
 tags = ["Instagram", "Trendline", "How to"]
 seo_tags = "instagram trendline, "
 
