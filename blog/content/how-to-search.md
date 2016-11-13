@@ -11,7 +11,7 @@ author_description = ""
 
 categories = ["How to"]
 series = ["How To"]
-tags = ["Media lists", "How to"]
-seo_tags = "media lists, search through media lists, easy media lists, how to, "
+tags = ["Search", "How to"]
+seo_tags = "search media lists, "
 
 +++

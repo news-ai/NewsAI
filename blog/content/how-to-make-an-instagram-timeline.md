@@ -1,5 +1,5 @@
 +++
-date = "2016-11-08T11:00:00+07:00"
+date = "2016-11-14T11:00:00+07:00"
 draft = true
 title = "How to: Make an Instagram Trendline"
 
@@ -16,21 +16,28 @@ seo_tags = "instagram trendline, "
 
 +++
 
-Import an existing sheet or add a new sheet with Instagram handles
+On our platform, we easily allow you to create an Instagram Trendline with your list.
+
+First, import an existing sheet or add a new sheet with Instagram handles. Adding Instagram handles will pull in the latest posts that the Instagram users have posted.
 
 ![](https://cloud.githubusercontent.com/assets/7796312/20083977/91d99134-a52d-11e6-9e0e-1dc243ffdd30.png)
 
-Click on "Show/Hide Columns" icon button on the top bar and activate some of the Instagram metrics columns you'd like to use (e.g. Instagram followers, comments, etc)
+Second, click on "Show/Hide Columns" icon button on the top bar and activate some of the Instagram metrics columns you'd like to use (e.g. Instagram followers, comments, etc).
 
 ![](https://cloud.githubusercontent.com/assets/7796312/20083981/992ac994-a52d-11e6-9ff6-b103755235f1.png)
+
+You should inactive the following columns:
+
 ![](https://cloud.githubusercontent.com/assets/7796312/20083999/ab2b154a-a52d-11e6-932c-7b232709456c.png)
 
-Select the contacts you'd like to generate the graph from (if you click on Selected column head, it will select all of the contacts)
+Next, select the contacts you'd like to generate the graph from (if you click on Selected column head, it will select all of the contacts).
 
 In the top right, there's a dropdown icon button called "Analyze" and click on "Instagram Trendline".
 
 ![](https://cloud.githubusercontent.com/assets/7796312/20084009/b32aba48-a52d-11e6-8c6e-b1b52a4bbe7e.png)
 
-Voila!
+After clicking on it, you should see the following panel:
 
 ![](https://cloud.githubusercontent.com/assets/7796312/20084012/b95082ae-a52d-11e6-92ee-a98cc306e260.png)
+
+Voila!
