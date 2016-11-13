@@ -1,6 +1,6 @@
 +++
 date = "2016-11-14T11:00:00+07:00"
-draft = true
+draft = false
 title = "How to: Add clients to your list & view your client directory"
 
 author_name = "Julie Pan"
@@ -20,10 +20,10 @@ On our platform, you can assign a client name attribute to a list so you can eas
 
 First, you click into a list and assign a Client name by click on the "Add Tag & Client" icon (shown below).
 
-![](https://cloud.githubusercontent.com/assets/7796312/20206126/5563606e-a7ac-11e6-8ae1-14baf41dadd4.png)
+![](https://storage.googleapis.com/newsai-main-site/blog/how-to-client-directory/1.png)
 
 Then, you can click the menu icon on the top left, and find them under the "Client Directory" tab.
 
-![](https://cloud.githubusercontent.com/assets/7796312/20206125/55630be6-a7ac-11e6-9dc4-486946d944f6.png)
+![](https://storage.googleapis.com/newsai-main-site/blog/how-to-client-directory/2.png)
 
 Voila!

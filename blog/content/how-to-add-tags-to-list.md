@@ -1,7 +1,8 @@
 +++
 date = "2016-11-12T11:00:00+07:00"
 draft = false
-title = "How to: Add tags to your list!"
+title = "How to: Add tags to your media list!"
+description = "A guide on how you are able to add tags to your media lists on our platform."
 
 author_name = "Julie Pan"
 author_twitter = "julie_panda"

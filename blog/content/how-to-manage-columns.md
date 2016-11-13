@@ -2,6 +2,7 @@
 date = "2016-11-12T11:00:00+07:00"
 draft = false
 title = "How to: Manage columns in your media lists!"
+description = "A guide on how you can manage columns in your media lists on our platform."
 
 author_name = "Julie Pan"
 author_twitter = "julie_panda"
