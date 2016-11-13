@@ -2,6 +2,7 @@
 date = "2016-11-14T11:00:00+07:00"
 draft = false
 title = "How to: Add clients to your list & view your client directory"
+description = "A guide on how you are able to add and filter by client name for your media lists."
 
 author_name = "Julie Pan"
 author_twitter = "julie_panda"

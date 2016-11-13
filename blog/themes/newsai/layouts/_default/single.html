@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="http://solid.buzzfeed.com/dist/solid.2.4.0-alpha.min.css">
+
 {{ partial "header_post.html" . }}
 {{ if isset .Params "cover_image" }}
 <div class="article-cover">
@@ -19,6 +21,11 @@
 
         <section>
             {{ .Content }}
+            {{ range sort .Params.tags }}
+                <div class="tag" style="font-size: 12px;">
+                  <a href="/tags/{{ . | urlize }}" class="tag__link">{{ . }}</a>
+                </div>
+            {{ end }}
             {{ partial "_social.html" . }}
         </section>
 
