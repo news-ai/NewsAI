@@ -1,12 +1,12 @@
 +++
-date = "2016-11-14T11:00:00+07:00"
+date = "2016-11-12T11:00:00+07:00"
 draft = false
 title = "How to: Add clients to your list & view your client directory"
 description = "A guide on how you are able to add and filter by client name for your media lists."
 
 author_name = "Julie Pan"
 author_twitter = "julie_panda"
-author_main_image = "https://cloud.githubusercontent.com/assets/7796312/20046865/94cee486-a47c-11e6-9ead-2075de3ca2cd.png"
+author_main_image = "https://storage.googleapis.com/newsai-main-site/blog/how-to-client-directory/2.png"
 author_website = "http://ycp217.github.io/"
 author_description = "Julie recently graduated from New York University with a degree in Computer Science. She is the co-founder of NewsAI."
 
