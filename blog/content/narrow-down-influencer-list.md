@@ -1,5 +1,5 @@
 +++
-date = "2016-11-15T15:00:00+07:00"
+date = "2016-11-14T15:00:00+07:00"
 draft = false
 title = "Narrow down your massive influencer list with this one trick"
 description = "How do you know which influencer is generating content that is above-and-beyond the average?"
@@ -8,26 +8,25 @@ author_name = "Julie Pan"
 author_twitter = "julie_panda"
 author_main_image = "https://cloud.githubusercontent.com/assets/7796312/20046865/94cee486-a47c-11e6-9ead-2075de3ca2cd.png"
 author_website = "http://ycp217.github.io/"
-author_description = "Julie recently graduated from New York University with a degree in Computer Science. She is the co-founder of NewsAI."
+author_description = "Julie graduated from New York University with a degree in Computer Science. She is the co-founder of NewsAI. She hails from the mystical land of California. On her free time, she thinks about the price changes of McNuggets and the best halal cart in her proximity."
 
 categories = ["Productivity"]
 series = ["Productivity"]
-tags = ["influencers", "Productivity"]
+tags = ["Influencers", "Productivity"]
 seo_tags = "influencers, productivity hack, "
 
 +++
 
-Everyone is an fashion influencer nowadays, but no two fashion influencers are created the same. Once you carefully curate a massive list of influencers whose style matches your brand's message, but working with a limited influencer budget, how do you know which influencer is generating content that is above-and-beyond the average?
+Everyone is an fashion influencer nowadays, but no two fashion influencers are created the same. Once you carefully curate a massive list of influencers whose style matches your brand's message, and working on limited influencer budget, how do you know which influencer is generating content that is above-and-beyond the average?
 
 I started out with the assumption that an influencer with more followers should be getting more likes/comments on average, and you can generate a trend line based on a large enough sample size on what is the average number of likes/comments an influencer with X followers should be getting.
 
-How I did it:
-I generated a trend line with a fairly small sample of 47 fashion influencers of various follower count (20K - 750k) after collecting a day's (November 6th) worth of likes, comments, # of posts of all the influencers. After generating the graph, I sorted the influencers by those above the line and those below it.
+How I did it: I generated a trend line with a fairly small sample of 47 fashion influencers of various follower count (20K - 750k) after collecting a day's (November 6th) worth of likes, comments, # of posts of all the influencers. After generating the graph, I sorted the influencers by those above the line and those below it.
 
 The Y-Axis is the # of Likes/# of posts.
 The X-Axis is the # of followers.
 
-If one influencer posts way more than another, then the total amount of likes would be skewed for the one that posts more, so I averaged daily # of likes with # of posts
+If one influencer posts way more than another, then the total amount of likes would be skewed for the one that posts more, so I averaged daily # of likes with # of posts.
 
 ![](https://cloud.githubusercontent.com/assets/7796312/20046865/94cee486-a47c-11e6-9ead-2075de3ca2cd.png)
 ![](https://cloud.githubusercontent.com/assets/7796312/20046676/6c67b36c-a47a-11e6-99cd-07126cd0f2b7.png)

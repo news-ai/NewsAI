@@ -8,7 +8,7 @@ author_name = "Julie Pan"
 author_twitter = "julie_panda"
 author_main_image = "https://cloud.githubusercontent.com/assets/7796312/20083977/91d99134-a52d-11e6-9e0e-1dc243ffdd30.png"
 author_website = "http://ycp217.github.io/"
-author_description = "Julie recently graduated from New York University with a degree in Computer Science. She is the co-founder of NewsAI."
+author_description = "Julie graduated from New York University with a degree in Computer Science. She is the co-founder of NewsAI. She hails from the mystical land of California. On her free time, she thinks about the price changes of McNuggets and the best halal cart in her proximity."
 
 categories = ["Productivity"]
 series = ["Productivity"]
