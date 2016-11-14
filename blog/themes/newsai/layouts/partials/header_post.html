@@ -62,6 +62,11 @@
         <nav class="tagline">
             {{ with .Site.Params.inc.tagline }}<span>{{ . }}</span>{{ end }}
             {{ with .Site.Params.inc.product_link }}<a href="{{ . }}" class="btn btn-outline">Learn More</a>{{ end }}
+            <!-- Calendly link widget begin -->
+            <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
+            <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/newsai-abhi');return false;">Get a demo!</a>
+            <!-- Calendly link widget end -->
         </nav>
     </header>
 </section>
