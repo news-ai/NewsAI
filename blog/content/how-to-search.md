@@ -1,12 +1,12 @@
 +++
 date = "2016-11-13T11:00:00+07:00"
-draft = true
+draft = false
 title = "How to: Search through all your media lists"
 description = "A guide on how you are able to search across all your media lists on our platform."
 
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
-author_main_image = "https://static.pexels.com/photos/7075/people-office-group-team.jpg"
+author_main_image = "https://storage.googleapis.com/newsai-main-site/blog/how-to-search/1.png"
 author_website = "https://abhi.co/"
 author_description = "Abhi recently graduated from New York University with a degree in Creation of Artificial Intelligence. He is the co-founder of NewsAI."
 

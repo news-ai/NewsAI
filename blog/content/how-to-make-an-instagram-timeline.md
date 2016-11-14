@@ -1,7 +1,8 @@
 +++
 date = "2016-11-14T11:00:00+07:00"
-draft = true
+draft = false
 title = "How to: Make an Instagram Trendline"
+description = "A guide on how you are able to create an Instagram Trendline using contacts in your media lists on our platform."
 
 author_name = "Julie Pan"
 author_twitter = "julie_panda"
@@ -16,7 +17,7 @@ seo_tags = "instagram trendline, "
 
 +++
 
-On our platform, we easily allow you to create an Instagram Trendline with your list.
+On our platform, we easily allow you to create an Instagram Trendline with your list. A trendline attempts to show a relationship between two attributes from selected contacts that could support some ideas about the selected contacts. E.g. "more followers, more likes per post".
 
 First, import an existing sheet or add a new sheet with Instagram handles. Adding Instagram handles will pull in the latest posts that the Instagram users have posted.
 
@@ -39,5 +40,9 @@ In the top right, there's a dropdown icon button called "Analyze" and click on "
 After clicking on it, you should see the following panel:
 
 ![](https://cloud.githubusercontent.com/assets/7796312/20084012/b95082ae-a52d-11e6-92ee-a98cc306e260.png)
+
+Contacts above the blue line have a higher number of followers than the average contact, and also get more likes per post than the average contact. This could help you narrow down the influencers you are looking for by only looking at the ones which get consistently high likes on each of their posts.
+
+The y-axis could also be the likes to comment ratio, which could show engagement.
 
 Voila!

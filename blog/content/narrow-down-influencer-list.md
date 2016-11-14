@@ -1,7 +1,7 @@
 +++
 date = "2016-11-08T11:00:00+07:00"
 draft = true
-title = "The Hunger Game: the Fashion Influencer edition"
+title = "Narrow down your massive influencer list with this one trick"
 description = "How do you know which influencer is generating content that is above-and-beyond the average?"
 
 author_name = "Julie Pan"
