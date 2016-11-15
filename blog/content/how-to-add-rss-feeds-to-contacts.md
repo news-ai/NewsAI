@@ -8,7 +8,7 @@ author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://storage.googleapis.com/newsai-main-site/blog/how-to-add-rss-feed/2.png"
 author_website = "https://abhi.co/"
-author_description = "Abhi recently graduated from New York University with a degree in Creation of Artificial Intelligence. He is the co-founder of NewsAI."
+author_description = "Abhi graduated from New York University with a degree in Creation of Artificial Intelligence. He is the co-founder of NewsAI."
 
 categories = ["How to"]
 series = ["How To"]
