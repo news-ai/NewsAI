@@ -47,6 +47,4 @@ There's a free 7-days trial (no credit card collected) and you can try recreatin
 
 While this is only a snapshot of one day, I am curious to see what sort of pattern will arise with data collected over a couple months, but that's another blogpost for another day.
 
-May the odds be ever in your favor.
-
 Holla your comments [@julie_panda](https://twitter.com/julie_panda) on Twitter.

@@ -5,6 +5,12 @@ api_version: 1
 threadsafe: yes
 
 handlers:
+- url: /feed/
+  static_files: public/blog/index.xml
+  upload: public/blog/index.xml
+- url: /feed
+  static_files: public/blog/index.xml
+  upload: public/blog/index.xml
 - url: /termsofservice/
   static_files: public/termsofservice.html
   upload: public/termsofservice.html
