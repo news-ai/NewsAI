@@ -26,11 +26,12 @@ We have a new curated media list for fashion! All you have to do is enter your e
     #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
     /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
 </style>
 <div id="mc_embed_signup">
 <form action="http://email3.newsai.co/t/d/s/nqxh/" method="post" id="subForm">
     <div id="mc_embed_signup_scroll">
-    <input style="height: 40px;" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <input style="height: 40px; margin-bottom: 5px;" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8909ba1ab86f96cce925ea912_e19509d1bf" tabindex="-1" value=""></div>
     <div class="clear"><input style="height: 40px; width: 110px; font-size: 1.5rem!important" type="submit" value="Download!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
