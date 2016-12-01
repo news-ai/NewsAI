@@ -13,7 +13,7 @@
         <header>
             <div class="meta">
                 By <address><a rel="author" title="{{ .Params.author_name }}" target="_blank">{{ .Params.author_name }}</a></address> &mdash;
-                <time pubdate datetime="{{ .Date.Format "2006-01-02" }}" title="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time> &mdash; {{ if in .Params.categories "How to" }}<a href="/categories/how-to/">How to series</a>{{ end }}{{ if in .Params.categories "Productivity" }}<a href="/categories/productivity/">Productivity series</a>{{ end }}
+                <time pubdate datetime="{{ .Date.Format "2006-01-02" }}" title="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time> {{ if in .Params.categories "How to" }}&mdash; <a href="/categories/how-to/">How to series</a>{{ end }}{{ if in .Params.categories "Productivity" }}&mdash; <a href="/categories/productivity/">Productivity series</a>{{ end }}
             </div>
             <h1 class="title">{{ .Title }}</h1>
             <h2 class="subtitle">{{ .Description }}</h2>
@@ -106,6 +106,8 @@
                 /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
                    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
             </style>
+            {{ if isset .Params "download_form" }}
+            {{else}}
             <div id="mc_embed_signup">
             <form action="//newsai.us13.list-manage.com/subscribe/post?u=8909ba1ab86f96cce925ea912&amp;id=e19509d1bf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
@@ -116,6 +118,7 @@
                 </div>
             </form>
             </div>
+            {{end}}
             <!--End mc_embed_signup-->
         </section>
         <br>
