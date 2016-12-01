@@ -32,7 +32,7 @@
     <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/ur8dbk9e';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
 </head>
 
-<body>
+<body class="grey-bg">
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -41,47 +41,14 @@
       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=232879317127042";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-    <div class="alert alert-danger" id="error" style="display: none;">
-      Email you entered is invalid!
-    </div>
     <section class="features grey-bg" id="features">
-        <div class="section-header" id="check-position" style="display: none;">
-            <h2 class="dark-text">Check your position in line!</h2>
-            <p>If you've already signed up -- enter your email to check your position</p>
+        <div class="section-header" id="subscribe">
+            <h2 class="dark-text">Thanks for signing up!</h2>
+            <h3>We're very excited for you to try our platform.</h3>
+            <p>We're looking forward to helping you optimize your media list workflow.</p>
+            <p>We'll email you with a beta invitation soon. If you share on social media with your invite code - we'll move you up in the line!</p>
 
-            <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-            <style type="text/css">
-                #mc_embed_signup{clear:left;}
-                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-            </style>
-            <div id="mc_embed_signup">
-            <form action="/a/subscribe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
-            <div class="mc-field-group">
-                <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-            </label>
-                <input type="email" value="" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL">
-                <input type="text" value="" placeholder="Invitation Code" name="INVITE" class="required invite" id="mce-INVITE" style="display: none;">
-            </div>
-                <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8909ba1ab86f96cce925ea912_c7ff40b080" tabindex="-1" value=""></div>
-                <div class="clear"><input type="submit" value="Check my position!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                </div>
-            </form>
-            </div>
-
-        </div>
-        <div class="section-header" id="subscribe" style="display: none;">
-            <h2 class="dark-text">In line!</h2>
-            <p>Thanks so much for signing up! We're very excited for you to try our platform.</p>
-            <p>You are currently number <span id="linePosition"></span> in line. If you share on social media with your invite code - we'll move you up in the line!</p>
-
-            <p><a href="https://twitter.com/share" class="twitter-share-button" data-text="I just found a great product that helps me manage my media lists! Check it out" data-url="https://www.newsai.co/?invite={{unique_id}}" data-via="newsaihq" data-show-count="false" id="twitter_link">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-            <p><div class="fb-share-button" data-href="https://www.newsai.co/" data-layout="button" data-size="small" data-mobile-iframe="true"><a id="facebook_link" class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.newsai.co%2F%3Finvite%3D22&amp;src=sdkpreparse">Blabber t&#039; yer mates</a></div></p>
-        </div>
-        <div class="container">
+            <p><a href="https://twitter.com/share" class="twitter-share-button" data-text="I just found a great product that helps me manage my media lists! Check it out" data-url="https://www.newsai.co/" data-via="newsaihq" data-show-count="false" id="twitter_link">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
         </div>
     </section>
     <footer>
@@ -97,12 +64,6 @@
         </div>  
     </footer>
     <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/newsai.js"></script>
-    <script>
-        var unique_id = '{{unique_id}}';
-        var error = '{{error}}';
-    </script>
-    <script src="/js/subscribe.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

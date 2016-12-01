@@ -22,7 +22,7 @@ if (unique_id !== '' || code) {
         document.getElementById('linePosition').innerHTML = data.position;
     });
 
-    document.getElementById('twitter_link').setAttribute('data-url', 'https://www.newsai.co/?invite=' + id);
+    document.getElementById('twitter_link').setAttribute('data-url', 'https://www.newsai.co/);
     document.getElementById('facebook_link').href = 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.newsai.co%2F%3Finvite%3D' + id + '&amp;src=sdkpreparse';
     document.getElementById('subscribe').style.display = 'block';
 } else {
