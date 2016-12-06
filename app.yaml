@@ -11,6 +11,9 @@ handlers:
 - url: /feed
   static_files: public/blog/index.xml
   upload: public/blog/index.xml
+- url: /free-media-lists/?
+  static_files: public/free-media-lists.html
+  upload: public/free-media-lists.html
 - url: /social-sync/?
   static_files: public/social-sync.html
   upload: public/social-sync.html
