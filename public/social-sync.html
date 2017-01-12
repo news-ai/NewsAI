@@ -72,7 +72,7 @@
     <!-- <![endif]-->
     <header class="header" id="home">
         <div class="color-overlay" style="min-height: 450px;">
-            <img src="https://storage.googleapis.com/newsai-main-site/newsai.png" alt="NewsAI Logo" class="header_top">
+            <img class="header_top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
@@ -85,6 +85,33 @@
             </div>
         </div>
     </header>
+    <div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img src="https://storage.googleapis.com/newsai-main-site/newsai-logo-1.png" alt="NewsAI Logo"></a>     
+            </div>
+            <div class="navbar-collapse collapse" id="kane-navigation">
+                <ul class="nav navbar-nav navbar-right main-navigation">
+                    <li><a href="/" rel="canonical">Home</a></li>
+                    <li><a href="/pricing" rel="canonical">Pricing</a></li>
+                    <li><a href="/blog" rel="canonical">Blog</a></li>
+                    <li><a href="#" data-toggle="dropdown">Features <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="/social-sync">Social Sync</a></li>
+                            <li class="dropdown-item"><a href="/free-media-lists">Curated media lists</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/get-started" rel="canonical"><button type="button" style="background-color: #032466; border-color: #032466;" class="btn btn-primary">GET STARTED</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <section class="description-brief grey-bg" id="brief1">
         <div class="col-md-12 text-center">
             <!-- <p><quote class="description-text">NewsAI allows you to upload your media lists and instantly start deriving value from them.</quote></p>

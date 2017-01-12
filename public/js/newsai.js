@@ -80,12 +80,3 @@ var inviteCode = $.urlParam('invite');
 if (inviteCode) {
     document.getElementById("mce-INVITE").value = inviteCode;
 }
-
-$(document).ready(function() {
-  $('.main-navigation').onePageNav({
-    scrollThreshold: 0.2, // Adjust if Navigation highlights too early or too late
-    filter: ':not(.external)',
-    changeHash: true
-  });
-  
-});
