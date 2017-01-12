@@ -73,26 +73,15 @@
     <!-- <![endif]-->
     <header class="header" id="home">
         <div class="color-overlay">
-            <img src="https://storage.googleapis.com/newsai-main-site/newsai.png" alt="NewsAI Logo" class="header_top">
+            <img alt="NewsAI Logo" class="header_top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="intro-section">
                             <h1 class="intro" style="background: rgba(0, 0, 0, 0.15); background-color: #032466;">Maximize your media lists</h1>
                             <h3 class="intro" style="background: rgba(0, 0, 0, 0.45); background-color: #032466;">Discover opportunities to cultivate your existing relationships</h3>
-                            <div id="mc_embed_signup">
-                                <form action="http://email3.newsai.co/t/d/s/nqlru/" method="post" id="subForm">
-                                    <div class="mc-field-group">
-                                        <input type="email" value="" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL">
-                                        <input type="text" value="" placeholder="Invitation Code" name="INVITE" class="required invite" id="mce-INVITE" style="display: none;">
-                                    </div>
-                                    <div id="mce-responses" class="clear">
-                                        <div class="response" id="mce-error-response" style="display:none"></div>
-                                        <div class="response" id="mce-success-response" style="display:none"></div>
-                                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8909ba1ab86f96cce925ea912_c7ff40b080" tabindex="-1" value=""></div>
-                                    <div class="clear"><input type="submit" value="Try it for free!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                                </form>
+                            <div class="buttons" id="download-button">
+                                <a href="/get-started" class="btn btn-default btn-lg standard-button">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -100,6 +89,29 @@
             </div>
         </div>
     </header>
+
+    <div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img src="https://storage.googleapis.com/newsai-main-site/newsai-logo-1.png" alt=""></a>     
+            </div>
+            <div class="navbar-collapse collapse" id="kane-navigation">
+                <ul class="nav navbar-nav navbar-right main-navigation">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/pricing">Pricing</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/get-started"><button type="button" style="background-color: #032466; border-color: #032466;" class="btn btn-primary">GET STARTED</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <section class="description-brief grey-bg" id="brief1">
         <div class="col-md-12 text-center">
             <!-- <p><quote class="description-text">NewsAI allows you to upload your media lists and instantly start deriving value from them.</quote></p>
@@ -283,104 +295,21 @@
         </div>
         <br>
     </section>
-    <section class="packages grey-bg" id="pricing">
-        <div class="container">
-            <div class="pricing-section-header">
-                <h2 class="dark-text">Simple and Flexible Pricing</h2>
-                <div class="annually-monthly-switch" onclick="changePricingClass()"><label id="annuallyLabel" class="active">Annually</label><div id="pricingClass" class="annually"><span></span></div><label id="monthlyLabel">Monthly</label></div>
-                <p>Every signup comes with a <b>free trial</b>!</p>
-                <p>Save 20% off by signing up with our annual package!</p>
-            </div>
-            <div class="row">
-                <div class="col-md-3 col-sm-3">  
-                    <div class="single-package">
-                        <h3 class="package-heading main-color">
-                        Personal </h3>
-                        <div class="price">
-                            <h2><span class="sign">$</span><span id="personalPrice">7.99</span> <span class="month">/month</span></h2>
-                        </div>
-                        <ul class="package-feature">
-                            <li><span class="main-color icon_check_alt2"></span>Contact &amp; media list management</li>
-                            <li><span class="main-color icon_check_alt2"></span>Email tracking &amp; performance reports</li>
-                            <li><span class="main-color icon_check_alt2"></span>20 contacts social media sync</li>
-                            <li><span class="main-color icon_check_alt2"></span>Unlimited contacts</li>
-                            <li><span class="main-color icon_check_alt2"></span>Outreach templates</li>
-                            <li><span class="main-color icon_check_alt2"></span>Unlimited RSS feeds</li>
-                            <li><span class="main-color icon_check_alt2"></span>Search</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 single-service"">
-                    <div class="single-package">
-                        <h3 class="package-heading main-color">
-                        Business </h3>
-                        <div class="price">
-                            <div class="color-bg">
-                                <h2><span class="sign">$</span><span id="businessPrice">39.99</span> <span class="month">/month</span></h2>
-                            </div>
-                        </div>
-                        <ul class="package-feature">
-                        Everything from the personal package, and
-                            <li><span class="main-color icon_check_alt2"></span>500 contacts social media sync</li>
-                            <li><span class="main-color icon_check_alt2"></span>Priority support</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 single-service">
-                    <div class="single-package">
-                        <h3 class="package-heading main-color">
-                        Ultimate </h3>
-                        <div class="price">
-                            <h2><span class="sign">$</span><span id="ultimatePrice">63.99</span> <span class="month">/month</span></h2>
-                        </div>
-                        <ul class="package-feature">
-                            Everything in the business package, and
-                            <li><span class="main-color icon_check_alt2"></span>Unlimited contacts social media sync</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 single-service">
-                    <div class="single-package">
-                        <h3 class="package-heading main-color">
-                        Agency </h3>
-                        <div class="price">
-                            <h2><span class="sign"></span><span id="enterprise"><a href="mailto:hello@newsai.org" style="font-size: 40px;">Contact us</a></span> <span class="month"></span></h2>
-                        </div>
-                        <ul class="package-feature">
-                            If you're an agency or a team send us an email and we'd be happy to work with you.
-                        </ul>
-                    </div>
-                </div>
-            </div>   
-        </div>
-    </section>
-
-    <section class="description-brief" id="brief1">
+    <section class="description-brief grey-bg" id="brief1">
         <div class="col-md-12 text-center">
             <div class="pricing-section-header">
                 <h2 class="dark-text">Try your 7 day trial!</h2>
                 <p>No credit card information required</p>
             </div>
         </div>
-        <div id="mc_embed_signup">
-            <form action="http://email3.newsai.co/t/d/s/nqlru/" method="post" id="subForm">
-                <div class="mc-field-group" style="width: 98%;">
-                    <input type="email" value="" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL">
-                    <input type="text" value="" placeholder="Invitation Code" name="INVITE" class="required invite" id="mce-INVITE" style="display: none;">
-                </div>
-                <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8909ba1ab86f96cce925ea912_c7ff40b080" tabindex="-1" value=""></div>
-                <div class="clear"><input type="submit" value="Get started!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-            </form>
+        <div class="buttons" id="download-button">
+            <a href="/get-started" class="btn btn-default btn-lg standard-button">Get Started</a>
         </div>
     </section>
-    <footer class="grey-bg">
+    <footer>
         <div class="container">
             <br>
-            Copyright &copy; 2016 NewsAI Inc. All rights reserved. <br>
+            Copyright &copy; 2017 NewsAI Inc. All rights reserved. <br>
             <a href="mailto:hello@newsai.org">Contact us</a> | <a href="/privacy" rel="canonical">Privacy Policy</a> | <a href="/termsofservice" rel="canonical">Terms of service</a> | <a href="/blog" rel="canonical">Blog</a>
             <ul class="social-icons">
                 <li><a href="https://www.facebook.com/newsaiorg" rel="canonical"><i class="social_facebook_square"></i></a></li>

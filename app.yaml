@@ -17,6 +17,9 @@ handlers:
 - url: /social-sync/?
   static_files: public/social-sync.html
   upload: public/social-sync.html
+- url: /get-started/?
+  static_files: public/get-started.html
+  upload: public/get-started.html
 - url: /pricing/?
   static_files: public/pricing.html
   upload: public/pricing.html

@@ -332,13 +332,13 @@ header .full-screen {
 }
 
 .navbar-inverse .navbar-toggle {
-border-color: #313131;
-background: #313131;
+    border-color: #313131;
+    background: #313131;
 }
 
 header .only-logo .navbar {
     background: none;
-    padding: 60px;
+    padding: 00px;
 }
 
 header .only-logo .navbar .navbar-header {
