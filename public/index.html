@@ -63,7 +63,7 @@
 <body>
     <!--[if !IE]> -->
         <link rel="stylesheet" href="css/bootstrap.min.css" lazyload>
-        <link rel="stylesheet" href="assets/elegant-icons/style.css" lazyload>
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" lazyload>
         <link rel="stylesheet" href="assets/app-icons/styles.css" lazyload>
 
         <link href='//fonts.googleapis.com/css?family=Roboto:100,300,100italic,400,300italic' rel='stylesheet' type='text/css'>
@@ -111,6 +111,8 @@
                         <ul class="dropdown-menu">
                             <li class="dropdown-item"><a href="/email">Email Distribution</a></li>
                             <li class="dropdown-item"><a href="/social-sync">Social Sync</a></li>
+                            <li class="dropdown-item"><a href="/search-and-filter">Search and Filter</a></li>
+                            <li class="dropdown-item"><a href="/daily-email">Daily Email</a></li>
                             <li class="dropdown-item"><a href="/free-media-lists">Curated media lists</a></li>
                         </ul>
                     </li>
@@ -228,7 +230,24 @@
             </div>
         </div>
     </section>
-    <section class="app-brief grey-bg" id="search-filter">
+    <section class="app-brief grey-bg" id="timeseries">
+        <div class="container">
+            <div class="row list">
+                <div class="col-md-6 left-align">
+                    <h2 class="dark-text"><a href="/social-sync">Timeseries</a></h2>
+                    <div class="colored-line-left">
+                    </div>
+                    <p><h3>We track the number of followers, comments, and likes influencers are getting in real-time so you can be informed on how much engagement they are getting.</h3></p>
+                </div>
+                <div class="col-md-6">
+                    <div class="phone-image">
+                        <img src="https://storage.googleapis.com/newsai-main-site/instagram_timeseries.png" alt="We track the number of followers and posts social influencers post day-to-day.">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="app-brief" id="search-filter">
         <div class="container">
             <div class="row list">
                 <div class="col-md-6 left-align">
@@ -240,23 +259,6 @@
                 <div class="col-md-6">
                     <div class="phone-image">
                         <img src="https://storage.googleapis.com/newsai-main-site/search_filter.png" alt="We have a search and filter feature so you can narrow down your media lists.">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="app-brief" id="timeseries">
-        <div class="container">
-            <div class="row list">
-                <div class="col-md-6 left-align">
-                    <h2 class="dark-text"><a href="/timeseries">Timeseries</a></h2>
-                    <div class="colored-line-left">
-                    </div>
-                    <p><h3>We track the number of followers, comments, and likes influencers are getting in real-time so you can be informed on how much engagement they are getting.</h3></p>
-                </div>
-                <div class="col-md-6">
-                    <div class="phone-image">
-                        <img src="https://storage.googleapis.com/newsai-main-site/instagram_timeseries.png" alt="We track the number of followers and posts social influencers post day-to-day.">
                     </div>
                 </div>
             </div>
@@ -306,21 +308,21 @@
             <div class="row">
                 <div class="col-md-4 single-service">
                     <div class="service-icon">
-                        <i class="social_facebook"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
                     </div>
                     <h3>Social</h3>
                     <p>Hook up social information to your contacts and know when their profiles are updated.</p>
                 </div>
                 <div class="col-md-4 single-service">
                     <div class="service-icon">
-                        <i class="icon_documents"></i>
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
                     </div>
                     <h3>Search and Filter</h3>
                     <p>Search and filter across one or all your lists.</p>
                 </div>
                 <div class="col-md-4 single-service">
                     <div class="service-icon">
-                        <i class="social_rss"></i>
+                        <i class="fa fa-rss" aria-hidden="true"></i>
                     </div>
                     <h3>Pull in stories</h3>
                     <p>Get an influencer’s latest story. We'll pull in their latest story for you.</p>
@@ -332,21 +334,21 @@
             <div class="row">
                 <div class="col-md-4 single-service">
                     <div class="service-icon">
-                        <i class="icon_easel_alt"></i>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
                     </div>
                     <h3>Email and Metrics</h3>
                     <p>Easily send emails, create template, and check analytics like bounce backs, open-rates, etc.</p>
                 </div>
                 <div class="col-md-4 single-service">
                     <div class="service-icon">
-                        <i class="icon_group"></i>
+                        <i class="fa fa-shield" aria-hidden="true"></i>
                     </div>
                     <h3>Security</h3>
                     <p>Your lists are 100% secure on our platform. We promise to never lose your media lists!</p>
                 </div>
                 <div class="col-md-4 single-service">
                     <div class="service-icon">
-                        <i class="icon_flowchart_alt"></i>
+                        <i class="fa fa-desktop" aria-hidden="true"></i>
                     </div>
                     <h3>Centralize</h3>
                     <p>One place to keep your many lists and easily find them.</p>
@@ -372,10 +374,10 @@
             Copyright &copy; 2017 NewsAI Inc. All rights reserved. <br>
             <a href="mailto:hello@newsai.org">Contact us</a> | <a href="/privacy" rel="canonical">Privacy Policy</a> | <a href="/termsofservice" rel="canonical">Terms of service</a> | <a href="/blog" rel="canonical">Blog</a>
             <ul class="social-icons">
-                <li><a href="https://www.facebook.com/newsaiorg" rel="canonical"><i class="social_facebook_square"></i></a></li>
-                <li><a href="https://twitter.com/newsaihq" rel="canonical"><i class="social_twitter_square"></i></a></li>
-                <li><a href="https://medium.com/@newsai" rel="canonical"><i class="social_blogger_square"></i></a></li>
-                <li><a href="https://www.linkedin.com/company/newsai" rel="canonical"><i class="social_linkedin_square"></i></a></li>
+                <li><a href="https://www.facebook.com/newsaiorg" rel="canonical"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/newsaihq" rel="canonical"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://medium.com/@newsai" rel="canonical"><i class="fa fa-medium"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/newsai" rel="canonical"><i class="fa fa-linkedin"></i></a></li>
             </ul>
         </div>  
     </footer>
