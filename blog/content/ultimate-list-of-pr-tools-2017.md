@@ -31,9 +31,15 @@ We handpicked the best public relations tools for your agency or for you to use 
 
 ### Collaboration tools
 
-5.
+5. [Slack](https://slack.com)
+
+6. [Basecamp](https://basecamp.com/)
+
+7. []
 
 ### Media list management
+
+[NewsAI](https://www.newsai.co):
 
 ### Newsrooms and press releases
 

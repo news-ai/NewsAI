@@ -639,8 +639,8 @@ footer .social-icons li a {
 }
 
 .app-brief {
-    padding-top: 55px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 0px;
 }
 
 .app-brief h2 {
@@ -654,7 +654,7 @@ footer .social-icons li a {
 }
 
 .app-brief .phone-image img {
-    width: 100%;
+    width: 80%;
 }
 
 .app-brief .left-align {
@@ -690,9 +690,14 @@ footer .social-icons li a {
     margin-top: 20px;
 }
 
+.top-description-brief {
+    padding-top:25px;
+    padding-bottom: 90px;
+}
+
 .description-brief {
-    padding-top: 35px;
-    padding-bottom: 95px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .description-text {
