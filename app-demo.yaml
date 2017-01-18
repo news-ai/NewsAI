@@ -1,4 +1,4 @@
-application: newsai-main-site
+application: newsai-main-site-demo
 version: 4
 runtime: python27
 api_version: 1
