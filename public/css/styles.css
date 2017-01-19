@@ -176,15 +176,31 @@ h5 {
             transition: all ease 0.25s;
 }
 
+.standard-button3 {
+    font-size: 18px;
+    font-weight: 400 !important;
+    border-radius: 4px !important;
+    text-shadow: 0 !important;
+    color: #ffffff;
+    min-width: 150px;
+    border: 2px solid white;
+    padding: 16px 25px 16px 25px;
+    margin: 5px;
+    -webkit-transition: all ease 0.25s;
+            transition: all ease 0.25s;
+}
+
 .standard-button:hover,
-.standard-button2:hover {
+.standard-button2:hover,
+.standard-button3:hover {
     border: none;
     color: #ffffff;
-    background-color: #032466;
+    background-color: #428bca;
 }
 
 .standard-button i,
-.standard-button2 i {
+.standard-button2 i,
+.standard-button3 i {
     vertical-align: inherit;
     margin-right: 8px;
     font-size: 20px;

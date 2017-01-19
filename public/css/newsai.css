@@ -8,15 +8,24 @@
 }
 
 .standard-button {
-    background-color: #032466;
+    background-color: #428bca;
 }
 
 .standard-button2 {
-    background-color: #032466;
+    background-color: #428bca;
 }
 
 .standard-button2:hover {
-    background-color: #032466;
+    background-color: #428bca;
+}
+
+
+.standard-button3 {
+    background-color: #428bca;
+}
+
+.standard-button3:hover {
+    background-color: #428bca;
 }
 
 .btn-primary:focus, 
