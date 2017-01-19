@@ -5,6 +5,9 @@ api_version: 1
 threadsafe: yes
 
 handlers:
+- url: /favicon.ico
+  static_files: public/images/favicon.ico
+  upload: public/images/favicon.ico
 - url: /feed/
   static_files: public/blog/index.xml
   upload: public/blog/index.xml
