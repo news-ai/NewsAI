@@ -183,7 +183,7 @@ h5 {
     text-shadow: 0 !important;
     color: #ffffff;
     min-width: 150px;
-    border: 2px solid white;
+    border: none;
     padding: 16px 25px 16px 25px;
     margin: 5px;
     -webkit-transition: all ease 0.25s;
@@ -298,7 +298,7 @@ h5 {
 -----------------------------------------*/
 
 header {
-    background: url(https://storage.googleapis.com/newsai-main-site/people-office-group-team-min.jpg) no-repeat center top fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://storage.googleapis.com/newsai-main-site/people-office-group-team-min.jpg) no-repeat center top fixed;
     -webkit-background-size: cover;
             background-size: cover;
 }
