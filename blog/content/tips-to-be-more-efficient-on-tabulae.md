@@ -1,7 +1,7 @@
 +++
 date = "2016-11-14T14:00:00+07:00"
 draft = false
-title = "5 tips to make yourself more efficient on Tabulae - 4 you won't believe"
+title = "5 Tips To Make Yourself More Efficient on Tabulae - 4 You Won't Believe"
 description = "Learn some tips and tricks on how to be efficient on Tabulae."
 
 author_name = "Julie Pan"

@@ -2,7 +2,7 @@
 date = "2017-01-19T11:00:00+07:00"
 draft = false
 title = "Personal Tech Tip: How to Make Most Sites into a Followable Feed"
-description = "Every couple weeks we release an updated media list curated towards fashion influencers"
+description = "Quick tips on how to turn your favorite site into a feed you can follow"
 
 author_name = "Julie Pan"
 author_twitter = "julie_panda"

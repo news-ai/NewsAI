@@ -1,7 +1,7 @@
 +++
 date = "2016-11-17T19:00:00+07:00"
 draft = false
-title = "Why social CRMs are necessary for PR agencies & professionals"
+title = "Why Social CRMs Are Necessary For PR Agencies & Professionals"
 description = "As eyeballs shift towards social media influencers, it becomes increasingly important to consider them as a part of your outreach strategy."
 
 author_name = "Abhi Agarwal"

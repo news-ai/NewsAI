@@ -298,7 +298,7 @@ h5 {
 -----------------------------------------*/
 
 header {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://storage.googleapis.com/newsai-main-site/people-office-group-team-min.jpg) no-repeat center top fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://storage.googleapis.com/newsai-main-site/people-office-group-team-min-2.jpg) no-repeat center top fixed;
     -webkit-background-size: cover;
             background-size: cover;
 }
@@ -698,8 +698,24 @@ footer .social-icons li a {
 }
 
 .center-pills {
-    display: flex;
-    justify-content: center;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   /* You can set flex-wrap and flex-direction individually */
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   /* Or do it all in one line with flex flow */
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   /* tweak the where items line up on the row */
+   /* valid values are: flex-start, flex-end, space-between, space-around, stretch */
+   -webkit-align-content: flex-end;
+   align-content: flex-end;
 }
 
 .list {

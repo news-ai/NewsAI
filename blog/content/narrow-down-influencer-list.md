@@ -1,7 +1,7 @@
 +++
 date = "2016-11-14T15:00:00+07:00"
 draft = false
-title = "Narrow down your massive influencer list with this one trick"
+title = "Narrow Down Your Massive Influencer List with this One Trick"
 description = "How do you know which influencer is generating content that is above-and-beyond the average?"
 
 author_name = "Julie Pan"

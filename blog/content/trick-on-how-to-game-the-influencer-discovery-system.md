@@ -1,7 +1,7 @@
 +++
 date = "2016-12-02T11:00:00+07:00"
 draft = false
-title = "Tricks on how to game the influencer discovery system"
+title = "Tricks on How To Game The Influencer Discovery System"
 description = "If you're looking influencers for your PR campaigns - we have some tricks you can try!"
 
 author_name = "Abhi Agarwal"

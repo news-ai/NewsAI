@@ -1,7 +1,7 @@
 +++
 date = "2016-12-01T11:00:00+07:00"
 draft = false
-title = "Curated Fashion Influencer media list!"
+title = "Curated Fashion Influencer Media List!"
 description = "Every couple weeks we release an updated media list curated towards fashion influencers"
 
 author_name = "Abhi Agarwal"
