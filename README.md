@@ -18,3 +18,4 @@ Other resources:
 4. https://www.google.com/trends/correlate
 5. https://www.google.com/trends/ (https://www.google.com/trends/explore?geo=US&q=Public%20Relations)
 6. https://chrome.google.com/webstore/detail/seo-website-analysis/hlngmmdolgbdnnimbmblfhhndibdipaf
+7. https://tools.pingdom.com/
