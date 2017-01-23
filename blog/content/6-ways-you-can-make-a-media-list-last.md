@@ -1,8 +1,8 @@
 +++
-date = "2017-01-20T11:00:00+07:00"
+date = "2017-01-23T11:00:00+07:00"
 draft = false
 title = "6 Ways You Can Make a Media List That Will Last"
-description = "Quick tips on how to turn your favorite site into a feed you can follow"
+description = "Tips on building media lists that can allow you to reference them anytime"
 
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
@@ -17,9 +17,11 @@ seo_tags = "media list, make your media list last, , "
 
 +++
 
+Having a comprehensive and up to date media list can assist a PR professional in their day to day. It allows them form a list of relevant contacts for a particular campaign. Since reporters and influencers change their positions or content more often than before, the list goes out of date fast. Here are some tips on building media lists that can allow you to reference them anytime:
+
 ### 1. Label your media list well
 
-Adding extra information about your media list will help it updated in the future. Adding more information at the beginning helps you recycle lists later on. This could be information like:
+Adding extra information about your media list will help it updated in the future, and will help you recycle contacts later on. This could be information like:
 
 1. What client is the list for?
 2. What type of contacts are in this list? Are they all fashion bloggers or tech reporters or generally mixed?
@@ -38,7 +40,7 @@ Besides, some PR professionals have also began pitching/talking to reporters via
 
 ### 3. Don’t store things that get out of date within a week
 
-If you're storing their followers count, likes count, or other metrics  then this will be hard to keep up to date for you. These will create more noise than be useful for you in your media lists. Store a ballpark instead!
+If you're storing their followers count, likes count, or other metrics then this will be hard to keep up to date for you. These will create more noise than be useful for you in your media lists. Store a ballpark instead! Don't try keep live information.
 
 ### 4. Don’t rely just on the media database you’re using
 
@@ -48,7 +50,7 @@ Media databases sometimes have incorrect information since reporters are moving 
 
 Since you have a lot of information that links to their social media or gets outdated - putting them in a contact database could be helpful. There are generally helpful if you have a lot of lists with a lot of different contacts. You can recycle contact information and use them in the future as well.
 
-Not only that, but it also helps you keep your information up to date and let the software assist you in keeping it up to date.
+Contact databases can also help you grab up-to-date information about your contacts, such as their follower count or the readership on their latest blog post. Let the software assist you in keeping your media list up to date.
 
 ### 6. Have a section on notes
 
