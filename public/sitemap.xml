@@ -6,11 +6,6 @@
   </url>
 
   <url>
-    <loc>https://www.newsai.co/blog/</loc>
-    <lastmod>2016-12-02T11:00:00+07:00</lastmod>
-  </url>
-
-  <url>
     <loc>https://www.newsai.co/privacy</loc>
   </url>
 
@@ -28,6 +23,33 @@
 
   <url>
     <loc>https://www.newsai.co/social-sync</loc>
+  </url>
+
+  <url>
+    <loc>https://www.newsai.co/email</loc>
+  </url>
+
+  <url>
+    <loc>https://www.newsai.co/search-and-filter</loc>
+  </url>
+
+  <url>
+    <loc>https://www.newsai.co/daily-email</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/</loc>
+    <lastmod>2017-01-23T11:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/6-ways-you-can-make-a-media-list-last/</loc>
+    <lastmod>2017-01-23T11:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/followable-feed/</loc>
+    <lastmod>2017-01-19T11:00:00+07:00</lastmod>
   </url>
   
   <url>
@@ -86,6 +108,11 @@
   </url>
   
   <url>
+    <loc>https://www.newsai.co/blog/how-to-use-smtp-for-emails/</loc>
+    <lastmod>2016-11-14T11:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.newsai.co/blog/how-to-use-email-analytics/</loc>
     <lastmod>2016-11-14T11:00:00+07:00</lastmod>
   </url>
@@ -124,5 +151,4 @@
     <loc>https://www.newsai.co/blog/sick-of-updating/</loc>
     <lastmod>2016-08-02T14:19:00+07:00</lastmod>
   </url>
-  
 </urlset>
