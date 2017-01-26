@@ -1,5 +1,5 @@
 +++
-date = "2017-01-17T11:00:00+07:00"
+date = "2017-01-27T11:00:00+07:00"
 draft = true
 title = "Ultimate list of PR tools to use in 2017"
 description = "PR tools you should be using this year to supercharge your PR activity"

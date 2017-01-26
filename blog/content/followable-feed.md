@@ -6,7 +6,7 @@ description = "Quick tips on how to turn your favorite site into a feed you can 
 
 author_name = "Julie Pan"
 author_twitter = "julie_panda"
-author_main_image = "https://cloud.githubusercontent.com/assets/7796312/20234990/7abd9ce6-a854-11e6-9e74-6617c80335ef.png"
+author_main_image = "https://static.pexels.com/photos/242492/pexels-photo-242492.jpeg"
 author_website = "http://ycp217.github.io/"
 author_description = "Julie graduated from New York University with a degree in Computer Science. She is the co-founder of NewsAI. She hails from the mystical land of California. On her free time, she thinks about the price changes of McNuggets and the best halal cart in her proximity."
 
@@ -16,6 +16,8 @@ tags = ["RSS", "How to", "Personal Tip"]
 seo_tags = "followable feed, rss, turn any site into rss, "
 
 +++
+
+<img src="https://static.pexels.com/photos/242492/pexels-photo-242492.jpeg" width="750px" alt="Social Analytics">
 
 As an avid reader of blogs, I am a big fan of RSS reader. While it may seem like RSS is going out of fashion in the world of social media. I prefer the RSS way of cutting down on the noise that can be ever-present on social media when I just want the updates on the sites that I am interested in.
 

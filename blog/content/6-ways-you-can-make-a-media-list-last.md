@@ -6,16 +6,18 @@ description = "Tips on building media lists that can allow you to reference them
 
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
-author_main_image = ""
+author_main_image = "https://static.pexels.com/photos/209137/pexels-photo-209137.jpeg"
 author_website = "https://abhi.co/"
 author_description = "Abhi graduated from New York University with a degree in Creation of Artificial Intelligence. He is the co-founder of NewsAI."
 
 categories = ["Productivity"]
 series = ["Productivity"]
 tags = ["Media List"]
-seo_tags = "media list, make your media list last, , "
+seo_tags = "media list, make your media list last, "
 
 +++
+
+<img src="https://static.pexels.com/photos/209137/pexels-photo-209137.jpeg" width="750px" alt="Social Analytics">
 
 Having a comprehensive and up to date media list can assist a PR professional in their day to day. It allows them form a list of relevant contacts for a particular campaign. Since reporters and influencers change their positions or content more often than before, the list goes out of date fast. Here are some tips on building media lists that can allow you to reference them anytime:
 

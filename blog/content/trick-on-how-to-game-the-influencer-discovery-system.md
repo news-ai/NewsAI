@@ -6,7 +6,7 @@ description = "If you're looking influencers for your PR campaigns - we have som
 
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
-author_main_image = ""
+author_main_image = "https://static.pexels.com/photos/163141/instagram-social-media-web-pages-internet-163141.jpeg"
 author_website = "https://abhi.co/"
 author_description = "Abhi graduated from New York University with a degree in Creation of Artificial Intelligence. He is the co-founder of NewsAI."
 
@@ -16,6 +16,9 @@ tags = ["Influencer Discovery", "Productivity"]
 seo_tags = "hacks, influencer discovery, "
 
 +++
+
+<img src="https://static.pexels.com/photos/163141/instagram-social-media-web-pages-internet-163141.jpeg" width="750px" alt="Social Analytics">
+
 
 Initially building a media list for a PR campaign can be incredibly time consuming. It takes a lot of looking through Cision, Google, and any other resources you may have access to, and filtering down from a large list. This becomes more challenging when you're looking at social media influencers since there's just so many more to pick from.
 
