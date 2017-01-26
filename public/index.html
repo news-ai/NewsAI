@@ -55,6 +55,8 @@
     <![endif]-->
     <!--[if !IE]> -->
         <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" lazyload>
+        <link rel="stylesheet" href="https://storage.googleapis.com/newsai-main-site/assets/vex/css/vex.css" lazyload>
+        <link rel="stylesheet" href="https://storage.googleapis.com/newsai-main-site/assets/vex/css/vex-theme-plain.css" lazyload>
 
         <link href='//fonts.googleapis.com/css?family=Roboto:100,300,100italic,400,300italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/site.min.css" lazyload>
@@ -102,7 +104,7 @@
                             <li class="dropdown-item"><a href="/free-media-lists">Curated media lists</a></li>
                         </ul>
                     </li>
-                    <li><a href="https://tabulae.newsai.org/api/auth/registration?next=https://tabulae.newsai.co/" rel="canonical"><button type="button" style="background-color: #428bca; border-color: #428bca;" class="btn btn-primary">GET STARTED</button></a></li>
+                    <li><a onclick="openModal()"><button type="button" style="background-color: #ED5352; border-color: #ED5352;" class="btn btn-primary">GET A DEMO</button></a></li>
                 </ul>
             </div>
         </div>
@@ -150,7 +152,7 @@
                     <p><h3>Schedule email delivery at your convenience. Send emails at the right time, not when you write them.</h3></p>
                     <p>
                         <div class="buttons" id="download-button">
-                            <a href="https://tabulae.newsai.org/api/auth/registration?next=https://tabulae.newsai.co/" class="btn btn-default btn-lg standard-button">Schedule your emails for free!</a>
+                            <a href="https://tabulae.newsai.org/api/auth/registration?next=https://tabulae.newsai.co/" class="btn btn-default btn-lg standard-button">Start my 7 day unlimited free trial</a>
                         </div>
                     </p>
                 </div>
@@ -189,7 +191,7 @@
                     <p><h3>Know what your all your contacts are posting on social media and in their blog posts, on a single platform, so you can stay up to date with their work.</h3></p>
                     <p>
                         <div class="buttons" id="download-button">
-                            <a href="https://tabulae.newsai.org/api/auth/registration?next=https://tabulae.newsai.co/" class="btn btn-default btn-lg standard-button">What are my contacts writing about?</a>
+                            <a href="https://tabulae.newsai.org/api/auth/registration?next=https://tabulae.newsai.co/" class="btn btn-default btn-lg standard-button">Start my 7 day unlimited free trial</a>
                         </div>
                     </p>
                 </div>
@@ -232,7 +234,7 @@
                     </p>
                     <p>
                         <div class="buttons" id="download-button">
-                            <a href="https://tabulae.newsai.org/api/auth/registration?next=https://tabulae.newsai.co/" class="btn btn-default btn-lg standard-button">Instantly search through all your lists</a>
+                            <a href="https://tabulae.newsai.org/api/auth/registration?next=https://tabulae.newsai.co/" class="btn btn-default btn-lg standard-button">Start my 7 day unlimited free trial</a>
                         </div>
                     </p>
                 </div>
@@ -271,7 +273,7 @@
                     <p><h3>We curate media lists on a variety of different fields that are available for anyone to use and copy.</h3></p>
                     <p>
                         <div class="buttons" id="download-button">
-                            <a href="https://tabulae.newsai.org/api/auth/registration?next=https://tabulae.newsai.co/" class="btn btn-default btn-lg standard-button">Take a look at our curated media lists!</a>
+                            <a href="https://tabulae.newsai.org/api/auth/registration?next=https://tabulae.newsai.co/" class="btn btn-default btn-lg standard-button">Start my 7 day unlimited free trial</a>
                         </div>
                     </p>
                 </div>
@@ -396,62 +398,80 @@
           "description": "NewsAI is a news intelligence platform for public relations professionals to streamline the process of monitoring news, finding influencers, and building media lists for their clients."
         }
     </script>
-    <!-- Start of Async HubSpot Analytics Code -->
-      <script type="text/javascript">
-        (function(d,s,i,r) {
-          if (d.getElementById(i)){return;}
-          var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
-          n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/2411372.js';
-          e.parentNode.insertBefore(n, e);
-        })(document,"script","hs-analytics",300000);
-      </script>
-    <!-- End of Async HubSpot Analytics Code -->
-
-    <!-- Twitter universal website tag code -->
-    <script>
-    !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-    },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-    a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-    // Insert Twitter Pixel ID and Standard Event data below
-    twq('init','nvxmn');
-    twq('track','PageView');
-    </script>
-    <!-- End Twitter universal website tag code -->
-
-    <script type="text/javascript">
-      var capterra_vkey = '699e156ff514a2a7a8b37c09b0e305fc',
-      capterra_vid = '2109783',
-      capterra_prefix = (('https:' == document.location.protocol) ? 'https://ct.capterra.com' : 'http://ct.capterra.com');
-      (function() {
-        var ct = document.createElement('script'); ct.type = 'text/javascript'; ct.async = true;
-        ct.src = capterra_prefix + '/capterra_tracker.js?vid=' + capterra_vid + '&vkey=' + capterra_vkey;
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ct, s);
-      })();
-    </script>
-
-    <!-- Facebook Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-    document,'script','https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1736561283251770', {
-    em: 'insert_email_variable,'
-    });
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1736561283251770&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- DO NOT MODIFY -->
-    <!-- End Facebook Pixel Code -->
-
     <script type="text/javascript">
     setTimeout(function(){var a=document.createElement("script");
     var b=document.getElementsByTagName("script")[0];
     a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0060/4524.js?"+Math.floor(new Date().getTime()/3600000);
     a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
     </script>
+    <script>
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'www.fullstory.com';
+    window['_fs_org'] = '2JAJX';
+    window['_fs_namespace'] = 'FS';
+    (function(m,n,e,t,l,o,g,y){
+        if (e in m && m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); return;}
+        g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+        o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+        g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+        g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+        d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+        ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+    })(window,document,window['_fs_namespace'],'script','user');
+    </script>
+
+    <script src="https://storage.googleapis.com/newsai-main-site/assets/vex/js/vex.combined.min.js"></script>
+    <script>vex.defaultOptions.className = 'vex-theme-plain'</script>
+    <script>
+        function openModal(){
+            todayDateString = new Date().toJSON().slice(0, 10)
+            vex.dialog.open({
+                message: 'Fill out the form below, and someone on the NewsAI team will get in touch with you very soon!',
+                input: [
+                    '<style>',
+                        '.vex-custom-field-wrapper {',
+                            'margin: 1em 0;',
+                        '}',
+                        '.vex-custom-field-wrapper > label {',
+                            'display: inline-block;',
+                            'margin-bottom: .2em;',
+                        '}',
+                    '</style>',
+                    '<form action="http://email3.newsai.co/t/d/s/pbjhr/" method="post" id="subForm">',
+                        '<p>',
+                            '<label for="fieldName">Name</label><br />',
+                            '<input id="fieldName" name="cm-name" type="text" />',
+                        '</p>',
+                        '<p>',
+                            '<label for="fieldEmail">Email</label><br />',
+                            '<input id="fieldEmail" name="cm-pbjhr-pbjhr" type="email" required />',
+                        '</p>',
+                        '<p>',
+                            '<button type="submit" class="vex-dialog-button-primary vex-dialog-button vex-first">Request demo</button>',
+                        '</p>',
+                    '</form>'
+                ].join(''),
+                buttons: [],
+                callback: function (data) {
+                    if (!data) {
+                        return console.log('Cancelled')
+                    }
+                    console.log('Date', data.date, 'Color', data.color)
+                    $('.demo-result-custom-vex-dialog').show().html([
+                        '<h4>Result</h4>',
+                        '<p>',
+                            'Date: <b>' + data.date + '</b><br/>',
+                            'Color: <input type="color" value="' + data.color + '" readonly />',
+                        '</p>'
+                    ].join(''))
+                }
+            })
+
+        }
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://storage.googleapis.com/newsai-main-site/js/bootstrap.min.js"></script>
 </body>
 </html>
