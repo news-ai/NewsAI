@@ -6,7 +6,7 @@ description = "PR tools you should be using this year to supercharge your PR act
 
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
-author_main_image = ""
+author_main_image = "https://static.pexels.com/photos/7375/startup-photos.jpg"
 author_website = "https://abhi.co/"
 author_description = "Abhi graduated from New York University with a degree in Creation of Artificial Intelligence. He is the co-founder of NewsAI."
 
@@ -16,6 +16,8 @@ tags = ["Tools", "Productivity"]
 seo_tags = "pr tools, pr software, public relations tools, 2017, "
 
 +++
+
+<img src="https://static.pexels.com/photos/7375/startup-photos.jpg" width="750px" alt="Ultimate PR tools">
 
 We handpicked the best public relations tools for your agency or for you to use in 2017. We looked at a lot of different solutions and evaluated how useful they were in the ever changing PR landscape.
 
@@ -31,15 +33,21 @@ We handpicked the best public relations tools for your agency or for you to use 
 
 ### Collaboration tools
 
-5. [Slack](https://slack.com)
+1. [Slack](https://slack.com)
 
-6. [Basecamp](https://basecamp.com/)
+2. [Basecamp](https://basecamp.com/)
 
-7. []
+### Finding contact details
+
+1. [Anymail Finder](https://anymailfinder.com/)
+
+2. [Hunter](https://hunter.io/)
+
+3. [Spokeo](http://www.spokeo.com/)
 
 ### Media list management
 
-[NewsAI](https://www.newsai.co):
+1. [NewsAI](https://www.newsai.co):
 
 ### Newsrooms and press releases
 
