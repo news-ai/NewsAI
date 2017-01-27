@@ -2,53 +2,42 @@ window.Intercom("boot", {
   app_id: "ur8dbk9e"
 });
 
-function alturaMaxima() {
-    var altura = $(window).height();
-    $(".full-screen").css('min-height', altura);
-}
-
-$(document).ready(function() {
-    alturaMaxima();
-    $(window).bind('resize', alturaMaxima);
-});
-
-$.urlParam = function(name){
-    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-    if (results==null){
-       return null;
-    }
-    else{
-       return results[1] || 0;
-    }
-}
-
-function insertParam(key, value) {
-    key = encodeURI(key); value = encodeURI(value);
-    var kvp = document.location.search.substr(1).split('&');
-    var i=kvp.length; var x; while(i--) {
-        x = kvp[i].split('=');
-
-        if (x[0]==key){
-            x[1] = value;
-            kvp[i] = x.join('=');
-            break;
+function openModal(){
+    todayDateString = new Date().toJSON().slice(0, 10)
+    vex.dialog.open({
+        message: 'Fill out the form below, and someone on the NewsAI team will get in touch with you very soon!',
+        input: [
+            '<style>',
+                '.vex-custom-field-wrapper {',
+                    'margin: 1em 0;',
+                '}',
+                '.vex-custom-field-wrapper > label {',
+                    'display: inline-block;',
+                    'margin-bottom: .2em;',
+                '}',
+            '</style>',
+            '<form action="http://email3.newsai.co/t/d/s/pbjhr/" method="post" id="subForm">',
+                '<p>',
+                    '<label for="fieldName">Name</label><br />',
+                    '<input id="fieldName" name="cm-name" type="text" />',
+                '</p>',
+                '<p>',
+                    '<label for="fieldEmail">Email</label><br />',
+                    '<input id="fieldEmail" name="cm-pbjhr-pbjhr" type="email" required />',
+                '</p>',
+                '<p>',
+                    '<button type="submit" class="vex-dialog-button-primary vex-dialog-button vex-first">Request demo</button>',
+                '</p>',
+            '</form>'
+        ].join(''),
+        buttons: [],
+        callback: function (data) {
+            if (!data) {
+                return console.log('Cancelled');
+            }
         }
-    }
+    })
 
-    if(i<0) {kvp[kvp.length] = [key,value].join('=');}
-
-    //this will reload the page, it's likely better to store this until finished
-    document.location.search = kvp.join('&'); 
-}
-
-if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-    var msViewportStyle = document.createElement('style')
-    msViewportStyle.appendChild(
-        document.createTextNode(
-            '@-ms-viewport{width:auto!important}'
-        )
-    )
-    document.querySelector('head').appendChild(msViewportStyle)
 }
 
 function changePricingClass() {
@@ -73,10 +62,4 @@ function changePricingClass() {
         document.getElementById("businessPrice").innerHTML = "39.99";
         document.getElementById("ultimatePrice").innerHTML = "63.99";
     }
-}
-
-// Check if there's an invitation code
-var inviteCode = $.urlParam('invite');
-if (inviteCode) {
-    document.getElementById("mce-INVITE").value = inviteCode;
 }
