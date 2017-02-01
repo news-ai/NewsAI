@@ -54,3 +54,5 @@ We handpicked the best public relations tools for your agency or for you to use 
 1. [Hey.Press](https://www.hey.press/): an affordable way to find emails of journalists. You can put in keywords that you are interested in and search through all journalists writing about those things.
 
 2. [WooPitch](http://www.woopitch.com/): similar to hey.press, but seems like it has a higher number of profiles. It also gets pricier than hey.press.
+
+We'll be reviewing each of these in depth in the coming weeks. Sign up below to get updates!
