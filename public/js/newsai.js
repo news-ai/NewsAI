@@ -49,8 +49,8 @@ function changePricingClass() {
 
         // Update prices
         document.getElementById("personalPrice").innerHTML = "9.99";
-        document.getElementById("businessPrice").innerHTML = "49.99";
-        document.getElementById("ultimatePrice").innerHTML = "79.99";
+        document.getElementById("businessPrice").innerHTML = "35.99";
+        document.getElementById("ultimatePrice").innerHTML = "54.99";
     } else {
         // Change label color & the button
         document.getElementById("pricingClass").className = "annually";
@@ -59,7 +59,7 @@ function changePricingClass() {
 
         // Update prices
         document.getElementById("personalPrice").innerHTML = "7.99";
-        document.getElementById("businessPrice").innerHTML = "39.99";
-        document.getElementById("ultimatePrice").innerHTML = "63.99";
+        document.getElementById("businessPrice").innerHTML = "29.99";
+        document.getElementById("ultimatePrice").innerHTML = "43.99";
     }
 }

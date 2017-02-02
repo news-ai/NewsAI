@@ -18,3 +18,5 @@ seo_tags = "media database, "
 +++
 
 <img src="https://static.pexels.com/photos/47386/pexels-photo-47386.jpeg" width="750px" alt="Social Analytics">
+
+- Retain institutionalized knowledge
