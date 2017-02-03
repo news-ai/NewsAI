@@ -1,5 +1,5 @@
     <section class="index">
-        {{ with .Params.author_main_image }}<img src="{{.}}" height="400px" alt="">{{ end }}
+        <a href="{{ .RelPermalink }}" rel="prefetch">{{ with .Params.author_main_image }}<img src="{{.}}" height="400px" alt="">{{ end }}</a>
         {{ with .Params.authorimage }}<img src="/images/{{ . }}" class="avatar">{{ end }}
         <div>
             <h2 class="title"><a href="{{ .RelPermalink }}" rel="prefetch">{{ .Title }}</a></h2>

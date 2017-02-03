@@ -17,6 +17,8 @@ seo_tags = "CRM, Public Relations CRM, PR CRM, productivity, PR productivity, "
 
 +++
 
+<img src="https://storage.googleapis.com/newsai-main-site/blog/important-to-use-a-crm-in-pr/1.png" width="450px" alt="PR CRM">
+
 As eyeballs shift towards social media influencers or niche bloggers, it becomes increasingly more important to consider them as a part of your outreach strategy. Influencers garner a community of followers around a specific interest, and become thought leaders in that area to those groups of people. These groups of people interact with these influencers on a day-to-day or weekly level by consuming their content, and consume that content because they share that similar interest.
 
 It's extremely beneficial to reach out to and work with influencers or niche bloggers as they may represent the communities you're looking to target for your clients. A tweet or post from them helps build the reputation for your client in that community, and is increasingly more effective than getting a post in a large, but non-targeted publication.
