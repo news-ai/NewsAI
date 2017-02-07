@@ -1,7 +1,7 @@
 +++
 date = "2017-01-25T19:00:00+07:00"
 draft = true
-title = "Measuring Pitch Success (Part 2 of 3)"
+title = "Defining"
 description = "How to improve the pitches you are sending reporters using data"
 
 author_name = "Abhi Agarwal"
@@ -16,9 +16,3 @@ tags = ["Pitch Success", "Measurement"]
 seo_tags = "pitch success, measuring, measurement, "
 
 +++
-
-<!-- How we doubled our pitch success using data -->
-
-This is part 1 of a 3 part series. If you haven’t done so already, you can read the first post [here](https://www.newsai.co/blog/measuring-pitch-success/).
-
-In the second part, we'll go through a full example of pitching to a reporter and learning from the feedback. We'll look at different ways to test different pitches, and see if we can learn how successful they were through data.
