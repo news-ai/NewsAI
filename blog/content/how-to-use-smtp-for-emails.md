@@ -1,6 +1,6 @@
 +++
 date = "2016-11-14T11:00:00+07:00"
-draft = false
+draft = true
 title = "How to: Use SMTP to send emails"
 description = "A guide on how you are able to upload an excel sheet onto our platform."
 
