@@ -1,8 +1,8 @@
 +++
-date = "2017-01-25T19:00:00+07:00"
+date = "2017-02-13T19:00:00+07:00"
 draft = true
-title = "Defining Metrics"
-description = ""
+title = "Best time to pitch a journalist"
+description = "How to improve the pitches you are sending reporters using data"
 
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
@@ -16,5 +16,3 @@ tags = ["Pitch Success", "Measurement"]
 seo_tags = "pitch success, measuring, measurement, "
 
 +++
-
-For each campaign you run for a client,
