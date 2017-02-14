@@ -18,3 +18,22 @@ seo_tags = "pitch success, measuring, measurement, "
 +++
 
 For each campaign you run for a client,
+
+### Barcelona Principles
+
+The [Barcelona Principles](https://en.wikipedia.org/wiki/Barcelona_Principles) are a set of seven guidelines to "measure the efficacy of PR campaigns". They were set in 2010 by PR practitioners who gathered in Barcelona. In the conference, these were the seven principles that were put forth:
+
+1. Goal Setting and Measurement are Fundamental to Communication and Public Relations
+2. Measuring Communication Outcomes is Recommended Versus Only Measuring Outputs
+3. The Effect on Organizational Performance Can and Should Be Measured Where Possible
+4. Measurement and Evaluation Require Both Qualitative and Quantitative Methods
+5. AVEs are not the Value of Communications
+6. Social Media Can and Should be Measured Consistently with Other Media Channels
+7. Measurement and Evaluation Should be Transparent, Consistent and Valid
+
+### Further reading
+
+- [How the Barcelona Principles have been updated](http://amecorg.com/how-the-barcelona-principles-have-been-updated/)
+- [The Principles of PR Measurement](https://www.ketchum.com/sites/default/files/insights/ketchum_white_paper_principles-pr-measurement.pdf)
+- [Measuring PR's Value](https://apps.prsa.org/Intelligence/BusinessCase/MeasurementResources/MeasuringValueofPublicRelations/index.html)
+- [Explaining PR's Barcelona Principles](http://www.forbes.com/sites/robertwynne/2016/02/01/explaining-the-barcelona-principles/)
