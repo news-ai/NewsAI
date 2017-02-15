@@ -22,3 +22,13 @@ seo_tags = "pitch success, measuring, measurement, "
 This is part 1 of a 3 part series. If you haven’t done so already, you can read the first post [here](https://www.newsai.co/blog/measuring-pitch-success/).
 
 In the second part, we'll go through a full example of pitching to a reporter and learning from the feedback. We'll look at different ways to test different pitches, and see if we can learn how successful they were through data.
+
+First, lets create a basic Excel sheet with a couple columns:
+
+1. Email Address (of Reporter)
+2. Opens (Number of Opens)
+3. Clicks (Number of Clicks)
+4. Replied (True/False)
+5. Pitch used (ID of Pitch)
+
+These are some simple things we can track.

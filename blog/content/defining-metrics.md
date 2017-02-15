@@ -12,8 +12,8 @@ author_description = "Abhi graduated from New York University with a degree in C
 
 categories = ["Productivity"]
 series = ["Productivity"]
-tags = ["Pitch Success", "Measurement"]
-seo_tags = "pitch success, measuring, measurement, "
+tags = ["Metrics", "Measurement"]
+seo_tags = "metrics, measuring, measurement, "
 
 +++
 
@@ -31,9 +31,13 @@ The [Barcelona Principles](https://en.wikipedia.org/wiki/Barcelona_Principles) a
 6. Social Media Can and Should be Measured Consistently with Other Media Channels
 7. Measurement and Evaluation Should be Transparent, Consistent and Valid
 
+Each of these goals was created to assist in evaluating PR campaigns. They can assist in measuring how successful your campaign was for your client, and how much your agency is improving. One of the factors of success, defined by the principles, is the outcome of the campaign rather than the pure output.
+
 ### Further reading
 
+- [Measuring Pitch Success (Part 1 of 3)](https://www.newsai.co/blog/measuring-pitch-success/)
 - [How the Barcelona Principles have been updated](http://amecorg.com/how-the-barcelona-principles-have-been-updated/)
 - [The Principles of PR Measurement](https://www.ketchum.com/sites/default/files/insights/ketchum_white_paper_principles-pr-measurement.pdf)
 - [Measuring PR's Value](https://apps.prsa.org/Intelligence/BusinessCase/MeasurementResources/MeasuringValueofPublicRelations/index.html)
 - [Explaining PR's Barcelona Principles](http://www.forbes.com/sites/robertwynne/2016/02/01/explaining-the-barcelona-principles/)
+- [PR Metrics Framework](http://amecorg.com/wp-content/uploads/2013/06/Social-Media-Valid-Framework2013.pdf)
