@@ -1,7 +1,7 @@
 +++
 date = "2017-02-15T19:00:00+07:00"
 draft = false
-title = "Measuring Pitch Success (Part 2 of 3)"
+title = "The Best Way To Get a Journalist to Notice Your Pitch (Part 2 of 3)"
 description = "How to maximize your chances of getting a reply from a journalist using data"
 
 author_name = "Abhi Agarwal"
@@ -56,7 +56,7 @@ This helps you measure the success of your pitch email. You can compare them to 
 You can learn from what kind of subject lines and bodies work better as well:
 
 - Pitch 1 was opened by 4 journalists, and pitch 2 was opened by 4 journalists.
-- A link in pitch 1 was clicked by 2 journalists, and in pitch 2 by 3 journalists. 
+- A link in pitch 1 was clicked by 2 journalists, and in pitch 2 by 3 journalists.
 - Pitch 1 got 2 replies, and pitch 2 got 1 reply.
 
 The more number of journalists you email, the more you'll understand what kind of pitches are successful. The data is quite small here, but we can still make observations.

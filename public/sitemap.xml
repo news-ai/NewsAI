@@ -37,9 +37,24 @@
     <loc>https://www.newsai.co/daily-email</loc>
   </url>
   
-<url>
+  <url>
     <loc>https://www.newsai.co/blog/</loc>
-    <lastmod>2017-01-30T11:00:00+07:00</lastmod>
+    <lastmod>2017-02-15T19:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/measuring-pitch-success-2/</loc>
+    <lastmod>2017-02-15T19:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/build-relationships-with-influencers/</loc>
+    <lastmod>2017-02-13T19:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/building-your-own-media-database/</loc>
+    <lastmod>2017-02-07T11:00:00+07:00</lastmod>
   </url>
   
   <url>
@@ -114,11 +129,6 @@
   
   <url>
     <loc>https://www.newsai.co/blog/how-to-upload-a-list/</loc>
-    <lastmod>2016-11-14T11:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.newsai.co/blog/how-to-use-smtp-for-emails/</loc>
     <lastmod>2016-11-14T11:00:00+07:00</lastmod>
   </url>
   

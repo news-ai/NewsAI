@@ -1,7 +1,7 @@
 +++
 date = "2017-01-25T19:00:00+07:00"
 draft = false
-title = "Measuring Pitch Success (Part 1 of 3)"
+title = "The Best Ways To Improve Your PR pitches by Learning from Data! (Part 1 of 3)"
 description = "How to improve the pitches you are sending reporters using data"
 
 author_name = "Abhi Agarwal"
