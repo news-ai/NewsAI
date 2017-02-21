@@ -16,3 +16,5 @@ tags = ["Pitch Success", "Measurement"]
 seo_tags = "pitch success, measuring, measurement, "
 
 +++
+
+I was intrigued in researching what the best time to pitch reporters was. 
