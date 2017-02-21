@@ -17,7 +17,7 @@ seo_tags = "media list, make your media list last, "
 
 +++
 
-<!--<img src="https://static.pexels.com/photos/6423/desk-notebook-office-grey.jpg" width="750px" alt="Social Analytics">-->
+<img src="https://static.pexels.com/photos/6423/desk-notebook-office-grey.jpg" width="750px" alt="Media Lists">
 
 Media databases are an expensive solution to finding contacts. Sometimes you don't have the budget for them, and need to build your own media lists. Twitter is a good resource to find journalists/influencers with. Journalists are the highest group of [verified users](https://www.poynter.org/2015/report-journalists-are-largest-most-active-group-on-twitter/346957/) on Twitter. Some statistics show that [59%](http://www.adweek.com/digital/journalists-twitter/) of journalists use Twitter. This makes Twitter a great resource to build your lists. Also, Twitter is a great platform to find social media influencers. A lot of Instagram/Facebook/Snapchat influencers also use Twitter, and Twitter has a lot of micro-communities.
 
