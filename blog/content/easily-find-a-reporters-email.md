@@ -17,7 +17,7 @@ seo_tags = "media list, make your media list last, "
 
 +++
 
-<!--<img src="https://static.pexels.com/photos/30814/pexels-photo-30814.jpg?w=750&auto=compress&cs=tinysrgb" width="750px" alt="Sending Emails">-->
+<img src="https://static.pexels.com/photos/30814/pexels-photo-30814.jpg?w=750&auto=compress&cs=tinysrgb" width="750px" alt="Find Reporter Emails">
 
 Sometimes it's difficult to find emails of reporters you're trying to reach out to. We totally understand that it's a problem! We face the same issues when we're looking for contact information. There are services that help you find email addresses, but those are quite costly.
 
@@ -27,7 +27,7 @@ In our struggle we found some tips that could be useful for you as well:
 
 A lot of journalists have began to put their emails in their Twitter descriptions. For example:
 
-<img src="https://storage.googleapis.com/newsai-main-site/blog/easily-find-a-reporter-email/sample_twitter.png" width="450px" alt="Sample Twitter">
+<img src="https://storage.googleapis.com/newsai-main-site/blog/easily-find-a-reporter-email/sample_twitter.png" width="350px" alt="Sample Twitter">
 
 It's becoming more and more common. Making it easy for them to get tips/stories from other Twitter users. To find their Twitter user a good Google query is:
 
@@ -72,7 +72,7 @@ Once you have an email, you can validate it. There's a service by Email Hippo th
 
 To make this whole process easier, we built our own tool that you could use for free! It takes the learnings we have above, and finds their email. You could use the tool for free on this website: [Whose Email](http://whose.email). It looks like this:
 
-<img src="https://storage.googleapis.com/newsai-main-site/blog/easily-find-a-reporter-email/whose_email.png" width="450px" alt="Sending Emails">
+<a href="http://whose.email"><img src="https://storage.googleapis.com/newsai-main-site/blog/easily-find-a-reporter-email/whose_email.png" width="450px" alt="Sending Emails"></a>
 
 You're able to put in the First Name, Last Name, and Domain Name of the publication and get an email out. It'll go through all the email formats (more than we discussed above) and try and find the ones that are valid.
 
