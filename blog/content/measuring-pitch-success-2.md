@@ -6,7 +6,7 @@ description = "How to maximize your chances of getting a reply from a journalist
 
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
-author_main_image = "https://static.pexels.com/photos/95916/pexels-photo-95916.jpeg"
+author_main_image = "https://static.pexels.com/photos/95916/pexels-photo-95916.jpeg?h=400&auto=compress&cs=tinysrgb"
 author_website = "https://abhi.co/"
 author_description = "Abhi graduated from New York University with a degree in Creation of Artificial Intelligence. He is the co-founder of NewsAI."
 

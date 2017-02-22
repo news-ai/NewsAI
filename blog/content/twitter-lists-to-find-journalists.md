@@ -6,7 +6,7 @@ description = "Use Existing Twitter Lists to Build Your Own Media List"
 
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
-author_main_image = "https://static.pexels.com/photos/6423/desk-notebook-office-grey.jpg"
+author_main_image = "https://static.pexels.com/photos/6423/desk-notebook-office-grey.jpg?w=750&auto=compress&cs=tinysrgb"
 author_website = "https://abhi.co/"
 author_description = "Abhi graduated from New York University with a degree in Creation of Artificial Intelligence. He is the co-founder of NewsAI."
 
@@ -54,7 +54,7 @@ There's also websites that are created to curate Twitter lists. For example, thi
 
 Journalists follow people within their own vertical. They follow them to find out when their fellow journalists are publishing articles or to interact with them. They use Twitter to stay up to date with their industry news as well. If you find a particular reporter or influencer, you can find others in their area by checking their Twitter following.
 
-For example, there's a reporter at Refinery29 called Amelia Edelman. She writes about health, travel, women, and many other topics. If she was in my media list as a reporter I was going to reach out to, I would go to her [Twitter page](https://twitter.com/apedelman) and click ["Following"](https://twitter.com/apedelman/following). 
+For example, there's a reporter at Refinery29 called Amelia Edelman. She writes about health, travel, women, and many other topics. If she was in my media list as a reporter I was going to reach out to, I would go to her [Twitter page](https://twitter.com/apedelman) and click ["Following"](https://twitter.com/apedelman/following).
 
 I would look through who she is following and narrow down the ones that are reporters. Then, I could start expanding my list by looking through their Following as well. By doing this I found:
 

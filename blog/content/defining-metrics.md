@@ -6,7 +6,7 @@ description = "Use the Barcelona Framework to outline your PR metrics"
 
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
-author_main_image = "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg"
+author_main_image = "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?h=400&auto=compress&cs=tinysrgb"
 author_website = "https://abhi.co/"
 author_description = "Abhi graduated from New York University with a degree in Creation of Artificial Intelligence. He is the co-founder of NewsAI."
 
@@ -21,7 +21,7 @@ seo_tags = "metrics, measuring, measurement, "
 
 For each campaign for a client should have a strategy on how to measure performance metrics. They should be designed before the launch of the campaign. This allows an agency to objectively look at the success of a campaign after launching it. Also, by defining metrics at the beginning you are able to set goals defined by those metrics. There are guiding principles defined by the AMEC organization to assist PR professionals in laying out these metrics.
 
-These promote and assist in picking the right measurement metrics. Considering all aspects of measurement now (include social sharing, engagement, direct sales, etc.). 
+These promote and assist in picking the right measurement metrics. Considering all aspects of measurement now (include social sharing, engagement, direct sales, etc.).
 
 ### Barcelona Principles
 

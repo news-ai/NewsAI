@@ -6,7 +6,7 @@ description = "Tips on building media lists that can allow you to reference them
 
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
-author_main_image = "https://static.pexels.com/photos/209137/pexels-photo-209137.jpeg"
+author_main_image = "https://static.pexels.com/photos/209137/pexels-photo-209137.jpeg?h=400&auto=compress&cs=tinysrgb"
 author_website = "https://abhi.co/"
 author_description = "Abhi graduated from New York University with a degree in Creation of Artificial Intelligence. He is the co-founder of NewsAI."
 

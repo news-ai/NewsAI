@@ -6,7 +6,7 @@ description = "Quick tips on how to turn your favorite site into a feed you can 
 
 author_name = "Julie Pan"
 author_twitter = "julie_panda"
-author_main_image = "https://static.pexels.com/photos/242492/pexels-photo-242492.jpeg"
+author_main_image = "https://static.pexels.com/photos/242492/pexels-photo-242492.jpeg?h=400&auto=compress&cs=tinysrgb"
 author_website = "http://ycp217.github.io/"
 author_description = "Julie graduated from New York University with a degree in Computer Science. She is the co-founder of NewsAI. She hails from the mystical land of California. On her free time, she thinks about the price changes of McNuggets and the best halal cart in her proximity."
 

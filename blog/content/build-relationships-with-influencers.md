@@ -6,7 +6,7 @@ description = "How to find, engage, and pitch social media influencers"
 
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
-author_main_image = "https://static.pexels.com/photos/154/people-apple-iphone-writing.jpg"
+author_main_image = "https://static.pexels.com/photos/154/people-apple-iphone-writing.jpg?h=400&auto=compress&cs=tinysrgb"
 author_website = "https://abhi.co/"
 author_description = "Abhi graduated from New York University with a degree in Creation of Artificial Intelligence. He is the co-founder of NewsAI."
 

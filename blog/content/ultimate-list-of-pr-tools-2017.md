@@ -6,7 +6,7 @@ description = "PR tools you should be using this year to supercharge your PR act
 
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
-author_main_image = "https://static.pexels.com/photos/7375/startup-photos.jpg"
+author_main_image = "https://static.pexels.com/photos/7375/startup-photos.jpg?h=400&auto=compress&cs=tinysrgb"
 author_website = "https://abhi.co/"
 author_description = "Abhi graduated from New York University with a degree in Creation of Artificial Intelligence. He is the co-founder of NewsAI."
 
