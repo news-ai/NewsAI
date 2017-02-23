@@ -57,3 +57,7 @@ Also, the data will help you target and contact reporters who are giving you pos
 Over time, you'll be able to collect a large amount of data on different reporters/publications. This data is valuable since it helps you understand what kinds of press and topics each journalist and publication is interested in. It'll help narrow down the types of publications and beats you should contact to maximize your success.
 
 I'll be posting a thorough tutorial on how to go about doing this soon & going through all the steps. Sign up below to get the post.
+
+### Further reading
+
+- [The Best Way To Get a Journalist to Notice Your Pitch (Part 2 of 3)](https://www.newsai.co/blog/measuring-pitch-success-2/)
