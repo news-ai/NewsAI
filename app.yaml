@@ -59,6 +59,9 @@ handlers:
 - url: /blog
   static_files: public/blog/index.html
   upload: public/blog/index.html
+- url: /books/how-to-measure-pr/?
+  static_files: public/how-to-measure-pr.html
+  upload: public/how-to-measure-pr.html
 - url: /a/(.*)
   script: main.app
 - url: /(.+)
