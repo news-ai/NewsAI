@@ -17,15 +17,15 @@ seo_tags = "pitch success, measuring, measurement, "
 
 +++
 
+<img src="https://static.pexels.com/photos/132922/pexels-photo-132922.jpeg?w=750&auto=compress&cs=tinysrgb" width="750px" alt="Research Journalists">
+
 60% of journalists in the US use Twitter. A lot of them are interacting and sharing content on a day-to-day basis. They share articles they are interested in, and articles they write themselves.
 
 Even if they don't use Twitter lately, it's still a good repository on information about them.
 
-Journalist: https://twitter.com/stevecuozzo
-
 ### 1. What links they are sharing on Twitter
 
-People usually share posts that they are interested in, and share new stories within their beat. 
+People usually share posts that they are interested in, and share new stories within their beat. Their Twitter history will give you a background on what they've written in the past, and other topics they enjoy. They share their thoughts. It helps you get a better understanding of them.
 
 ### 2. Monitor when they are asking for experts or have problems
 
@@ -53,6 +53,8 @@ A lot of people comment when they re-tweet or tweet the blog post links with the
 Most publications have Twitter accounts now. A great way to get context on the most interesting posts at a publication, is to look through their Twitter feed. They usually don't share all their posts, but their most important posts. You can analyze to see what types of content each publication/editors wants before pitching them.
 
 Most of this advice is dependent on what industry you're in. It doesn't apply universally to all types of publications. But, they're slowly becoming more applicable as more industries move to strongly using social media.
+
+Try these out on a sample journalist: [Steve Cuozzo](https://twitter.com/stevecuozzo).
 
 ### Further reading
 

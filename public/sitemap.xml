@@ -37,9 +37,19 @@
     <loc>https://www.newsai.co/daily-email</loc>
   </url>
   
-<url>
+  <url>
     <loc>https://www.newsai.co/blog/</loc>
-    <lastmod>2017-02-20T11:00:00+07:00</lastmod>
+    <lastmod>2017-02-28T19:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/using-twitter-to-research-journalists/</loc>
+    <lastmod>2017-02-28T19:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/easily-find-a-reporters-email/</loc>
+    <lastmod>2017-02-22T11:00:00+07:00</lastmod>
   </url>
   
   <url>
