@@ -1,0 +1,25 @@
++++
+date = "2017-02-13T19:00:00+07:00"
+draft = true
+title = "10 Best Pitches From Around The Internet"
+description = "Take a look at pitches sent by other PR professionals. It's great to learn them!"
+
+author_name = "Abhi Agarwal"
+author_twitter = "abhiagarwal"
+author_main_image = "https://static.pexels.com/photos/33972/pexels-photo.jpg?h=400&auto=compress&cs=tinysrgb"
+author_website = "https://abhi.co/"
+author_description = "Abhi graduated from New York University with a degree in Creation of Artificial Intelligence. He is the co-founder of NewsAI."
+
+categories = ["Productivity"]
+series = ["Productivity"]
+tags = ["Pitch Success", "Measurement"]
+seo_tags = "pitch success, measuring, measurement, "
+
++++
+
+I wanted to try and learn from great PR pitches. So I went on Google, Twitter, and many other social networks to find some that people had shared. 
+
+Notes 
+
+- http://circaedu.com/hemj/how-to-write-a-media-pitch-with-examples/
+- https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=pr+pitch+example+best&*
