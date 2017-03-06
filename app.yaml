@@ -17,6 +17,9 @@ handlers:
 - url: /free-media-lists/?
   static_files: public/free-media-lists.html
   upload: public/free-media-lists.html
+- url: /free-media-list/?
+  static_files: public/free-media-lists.html
+  upload: public/free-media-lists.html
 - url: /security/?
   static_files: public/security.html
   upload: public/security.html
