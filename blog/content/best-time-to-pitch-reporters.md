@@ -1,7 +1,7 @@
 +++
 date = "2017-03-06T19:00:00+07:00"
 draft = false
-title = "Best time to pitch a journalist"
+title = "The Best Time To Pitch a Journalist"
 description = "What does data say is the best time to pitch reporters?"
 
 author_name = "Abhi Agarwal"
