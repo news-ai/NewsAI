@@ -1,6 +1,6 @@
 +++
 date = "2017-03-07T19:00:00+07:00"
-draft = true
+draft = false
 title = "The 5 Best Pitches From Around The Internet"
 description = "Take a look at pitches sent by other PR professionals. It's great to learn from them!"
 
@@ -12,8 +12,8 @@ author_description = "Abhi graduated from New York University with a degree in C
 
 categories = ["Productivity"]
 series = ["Productivity"]
-tags = ["Pitch Success", "Measurement"]
-seo_tags = "pitch success, measuring, measurement, "
+tags = ["Best Pitch"]
+seo_tags = "pitch, best, best pitch, "
 
 +++
 
@@ -23,7 +23,7 @@ I wanted to try and learn from great PR pitches. So I went on Google, Twitter, a
 
 There are a lot of different types of pitches, depending on the vertical. I just wanted to learn more about what made a good pitch by looking a lot of them. Regardless of what vertical it was in, or if it was shared by a reporter or a PR professional.
 
-#### 1. Pitch to share product
+#### 1. Pitch to Share a Product
 
 The first one I found was on [The Next Web](https://thenextweb.com/). The article was called [Pitch perfect: A startup’s guide to getting coverage](https://thenextweb.com/media/2011/08/21/pitch-perfect-a-startups-guide-to-getting-coverage/#.tnw_dftN7PYI#.tnw_UIeIPA0X) by Paul Sawers, a reporter. Paul shares his "perfect pitch email":
 
@@ -53,7 +53,7 @@ This shares a product that gives a reporter exclusive to write about it. It give
 - Attach social details at the bottom
 - Politely let me know if it's an exclusive or not
 
-### 2. Pitch to connect expert
+### 2. Pitch to Connect an Expert
 
 Next, I was curious to see what the best way to pitch your expert was. This is to make an initial contact with a reporter. Caroline, a PR professional, in her article [How to Write a Media Pitch (with Examples)](http://circaedu.com/hemj/how-to-write-a-media-pitch-with-examples/) shared this pitch:
 
@@ -119,8 +119,9 @@ I found this to be a great pitch. It got straight to the point & let the reporte
 - Short & to the point
 - Personalized to the reporter - easily know that he read her stories
 
-### 5.
-
+### 5. Testimonial, More Emotional & Free Sample
+ I
+The last pitch I loved was from a PR professional. It's by Elena, who runs [Cross Border Communications](http://crossborderpr.com/). She wrote an article called [Sample Media Pitch Letter: Highlighting Your Product](http://prinyourpajamas.com/media-pitch-sample/). It focuses more around a consumer product that is shipped (physical product).
 
 
 ```
@@ -137,6 +138,14 @@ I would be happy to send you a sample so you can credibly prove to your readers 
 I appreciate your time and consideration for what www.monthlysocks.com has to offer. If you’re interested in learning more, please email Elena Verlee at email@address.com or call me at 123-4567-890.
 ```
 
+This, to me, seemed more emotional than the other ones. It had a long quote from a customer who had used it, and it provided a sample for the reporter. The testimonial made it stronger, since you're able to feel the impact of what the service does. I learnt:
+
+- Sometimes long pitches are fine if they portray a story
+- Giving away a sample if it's a sample product is good
+- Going straight to the point at the beginning is powerful
+
+#### General advice?
+
 Every single one of these emails is personalized to each of the reporters. They know:
 
 - The industry/beat the reporter works in
@@ -145,6 +154,15 @@ Every single one of these emails is personalized to each of the reporters. They 
 
 #### Further reading
 
+From our blog:
+
+- [The Best Time To Pitch a Journalist](https://www.newsai.co/blog/best-time-to-pitch-reporters/)
+- [5 Ways To Use Twitter To Research Journalists](https://www.newsai.co/blog/using-twitter-to-research-journalists/)
+- [8 Ways To Build Relationships with Influencers](https://www.newsai.co/blog/build-relationships-with-influencers/)
+
+From other blogs:
+
 - [How to Write a Media Pitch (with Examples)](http://circaedu.com/hemj/how-to-write-a-media-pitch-with-examples/)
 - [Pitch perfect: A startup’s guide to getting coverage](https://thenextweb.com/media/2011/08/21/pitch-perfect-a-startups-guide-to-getting-coverage/#.tnw_dftN7PYI#.tnw_UIeIPA0X)
 - [PR Pros Who Rock: Three Winning Agencies and Pitches That Hooked Essence, Redbook and U.S. News & World ReportIdea](https://www.bulldogreporter.com/pr-pros-who-rock-three-winning-agencies-and-pitches-that-hooked-essence-redbook-and/)
+- [Sample Media Pitch Letter: Highlighting Your Product](http://prinyourpajamas.com/media-pitch-sample/)
