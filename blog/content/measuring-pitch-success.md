@@ -4,6 +4,8 @@ draft = false
 title = "The Best Ways To Improve Your PR pitches by Learning from Data! (Part 1 of 3)"
 description = "How to improve the pitches you are sending reporters using data"
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://static.pexels.com/photos/33972/pexels-photo.jpg?h=400&auto=compress&cs=tinysrgb"

@@ -4,6 +4,8 @@ draft = false
 title = "The 5 Best Pitches From Around The Internet"
 description = "Take a look at pitches sent by other PR professionals. It's great to learn from them!"
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://static.pexels.com/photos/339602/pexels-photo-339602.png?h=400&auto=compress&cs=tinysrgb"

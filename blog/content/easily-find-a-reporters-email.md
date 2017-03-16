@@ -4,6 +4,8 @@ draft = false
 title = "The Best Way To Find A Reporters Email Within Minutes"
 description = "Spend less time looking through Google for emails"
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://static.pexels.com/photos/30814/pexels-photo-30814.jpg?h=400&auto=compress&cs=tinysrgb"

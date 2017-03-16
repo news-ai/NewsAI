@@ -4,6 +4,8 @@ draft = false
 title = "The Best Way To Get a Journalist to Notice Your Pitch (Part 2 of 3)"
 description = "How to maximize your chances of getting a reply from a journalist using data"
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://static.pexels.com/photos/95916/pexels-photo-95916.jpeg?h=400&auto=compress&cs=tinysrgb"

@@ -4,6 +4,8 @@ draft = false
 title = "How To Build Your Own Media List using Twitter Lists"
 description = "Use Existing Twitter Lists to Build Your Own Media List"
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://static.pexels.com/photos/6423/desk-notebook-office-grey.jpg?w=750&auto=compress&cs=tinysrgb"

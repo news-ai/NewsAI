@@ -4,6 +4,8 @@ draft = false
 title = "How to Define Better Metrics and Show PR's Value"
 description = "Use the Barcelona Framework to outline your PR metrics"
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?h=400&auto=compress&cs=tinysrgb"

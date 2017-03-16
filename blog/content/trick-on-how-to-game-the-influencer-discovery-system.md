@@ -4,6 +4,8 @@ draft = false
 title = "Tricks on How To Game The Influencer Discovery System"
 description = "If you're looking influencers for your PR campaigns - we have some tricks you can try!"
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://static.pexels.com/photos/163141/instagram-social-media-web-pages-internet-163141.jpeg?h=400&auto=compress&cs=tinysrgb"
@@ -18,7 +20,6 @@ seo_tags = "hacks, influencer discovery, "
 +++
 
 <img src="https://static.pexels.com/photos/163141/instagram-social-media-web-pages-internet-163141.jpeg" width="750px" alt="Social Analytics">
-
 
 Initially building a media list for a PR campaign can be incredibly time consuming. It takes a lot of looking through Cision, Google, and any other resources you may have access to, and filtering down from a large list. This becomes more challenging when you're looking at social media influencers since there's just so many more to pick from.
 

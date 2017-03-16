@@ -4,6 +4,8 @@ draft = false
 title = "Sick of Updating? 4 Ways We’re Trying to Take The Pain Away From It"
 description = "Often times lists are stored in Excel sheets or emails and contact information is updated on an individual basis. This process is cumbersome and we want the PR professionals to know that we’re actively developing the solution."
 
+post_type = "post"
+
 author_name = "Jordan Yue"
 author_twitter = "jordanftw_yr"
 author_main_image = "https://static.pexels.com/photos/7075/people-office-group-team.jpg"

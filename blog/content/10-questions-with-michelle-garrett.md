@@ -4,6 +4,8 @@ draft = true
 title = "10 Questions With Michelle Garrett"
 description = ""
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://static.pexels.com/photos/132922/pexels-photo-132922.jpeg?h=400&auto=compress&cs=tinysrgb"
@@ -17,6 +19,6 @@ seo_tags = "pitch success, measuring, measurement, "
 
 +++
 
-### 1. 
+### 1.
 
 ### 2.

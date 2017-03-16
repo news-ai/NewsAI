@@ -4,6 +4,8 @@ draft = false
 title = "Narrow Down Your Massive Influencer List with this One Trick"
 description = "How do you know which influencer is generating content that is above-and-beyond the average?"
 
+post_type = "post"
+
 author_name = "Julie Pan"
 author_twitter = "julie_panda"
 author_main_image = "https://cloud.githubusercontent.com/assets/7796312/20046865/94cee486-a47c-11e6-9ead-2075de3ca2cd.png"

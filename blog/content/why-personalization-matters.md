@@ -4,6 +4,8 @@ draft = false
 title = "Why Personalizing Your Pitches Matters and How To Do It Well"
 description = "Why you should personalize emails to reporters and tips on how to personalize them"
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://static.pexels.com/photos/34580/pexels-photo.jpg?h=400&auto=compress&cs=tinysrgb"

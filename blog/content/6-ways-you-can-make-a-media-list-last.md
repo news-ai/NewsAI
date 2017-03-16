@@ -4,6 +4,8 @@ draft = false
 title = "6 Ways You Can Make a Media List That Will Last"
 description = "Tips on building media lists that can allow you to reference them anytime"
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://static.pexels.com/photos/209137/pexels-photo-209137.jpeg?h=400&auto=compress&cs=tinysrgb"

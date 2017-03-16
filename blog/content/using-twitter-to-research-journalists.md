@@ -4,6 +4,8 @@ draft = false
 title = "5 Ways To Use Twitter To Research Journalists"
 description = "How to use social media to understand what journalists are writing and their audiences"
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://static.pexels.com/photos/132922/pexels-photo-132922.jpeg?h=400&auto=compress&cs=tinysrgb"

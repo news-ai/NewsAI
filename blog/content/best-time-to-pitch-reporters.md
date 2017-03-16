@@ -4,6 +4,8 @@ draft = false
 title = "The Best Time To Pitch a Journalist"
 description = "What does data say is the best time to pitch reporters?"
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://storage.googleapis.com/newsai-main-site/blog/best-time-to-pitch-reporters/1.jpg"
@@ -31,7 +33,7 @@ CoSchedule did a study on what the best time to send an email generally was. The
 
 <img src="https://coschedule.com/blog/wp-content/uploads/best-day-to-send-email-chart.png" width="750px" alt="Best Day To Send Email Chart">
 
-The best time to send emails was [10 a.m](https://coschedule.com/blog/best-time-to-send-email/). 
+The best time to send emails was [10 a.m](https://coschedule.com/blog/best-time-to-send-email/).
 
 <img src="https://coschedule.com/blog/wp-content/uploads/best-time-of-day-to-send-email.png" width="750px" alt="Best Time To Send Email Chart">
 
@@ -43,7 +45,7 @@ According to Axia PR, "many media outlets have planning meetings between 8:30-9:
 
 #### Rush Hour Pitch Deletion
 
-AdvisoryHQ in their post wrote: "we assumed it was best to send the pitch before 7am" [4], but later realized that "reporters are in the habit of checking their emails when they wake up or on their way to work" [4]. In the morning when they wake up, "most reporters just hit delete, delete, delete on pitch emails that hit their inbox" [4]. 
+AdvisoryHQ in their post wrote: "we assumed it was best to send the pitch before 7am" [4], but later realized that "reporters are in the habit of checking their emails when they wake up or on their way to work" [4]. In the morning when they wake up, "most reporters just hit delete, delete, delete on pitch emails that hit their inbox" [4].
 
 Therefore, sending emails after the workday is over or before is not ideal. It seems like people spend less time per email in the morning, since they're reading them on their phones.
 

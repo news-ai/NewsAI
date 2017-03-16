@@ -4,6 +4,8 @@ draft = false
 title = "Ultimate list of PR tools to use in 2017"
 description = "PR tools you should be using this year to supercharge your PR activity"
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://static.pexels.com/photos/7375/startup-photos.jpg?h=400&auto=compress&cs=tinysrgb"

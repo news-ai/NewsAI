@@ -4,6 +4,8 @@ draft = false
 title = "Personal Tech Tip: How to Make Most Sites into a Followable Feed"
 description = "Quick tips on how to turn your favorite site into a feed you can follow"
 
+post_type = "post"
+
 author_name = "Julie Pan"
 author_twitter = "julie_panda"
 author_main_image = "https://static.pexels.com/photos/242492/pexels-photo-242492.jpeg?h=400&auto=compress&cs=tinysrgb"

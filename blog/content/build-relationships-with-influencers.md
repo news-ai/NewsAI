@@ -4,6 +4,8 @@ draft = false
 title = "8 Ways To Build Relationships with Influencers"
 description = "How to find, engage, and pitch social media influencers"
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://static.pexels.com/photos/154/people-apple-iphone-writing.jpg?h=400&auto=compress&cs=tinysrgb"

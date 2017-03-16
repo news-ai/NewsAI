@@ -4,6 +4,8 @@ draft = false
 title = "Why Social CRMs Are Necessary For PR Agencies & Professionals"
 description = "As eyeballs shift towards social media influencers, it becomes increasingly important to consider them as a part of your outreach strategy."
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://storage.googleapis.com/newsai-main-site/blog/important-to-use-a-crm-in-pr/1.png"

@@ -4,6 +4,8 @@ draft = false
 title = "Why Your Agency Needs to Build Their Own Media Database"
 description = "Contacts are an important asset to PR firms. Spending resources maintaining them is important."
 
+post_type = "post"
+
 author_name = "Abhi Agarwal"
 author_twitter = "abhiagarwal"
 author_main_image = "https://static.pexels.com/photos/47386/pexels-photo-47386.jpeg?h=400&auto=compress&cs=tinysrgb"
