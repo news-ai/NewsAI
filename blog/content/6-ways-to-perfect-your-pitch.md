@@ -1,5 +1,5 @@
 +++
-date = "2017-03-17T19:00:00+07:00"
+date = "2017-03-16T19:00:00+07:00"
 draft = false
 title = "6 Ways To Perfect Your PR Pitch"
 description = "The 6 things to check just before you send your pitch to a reporter"
