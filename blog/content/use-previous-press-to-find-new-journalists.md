@@ -21,7 +21,6 @@ seo_tags = "journalists, find journalists, "
 
 <img src="https://static.pexels.com/photos/212286/pexels-photo-212286.jpeg?w=750" width="750px" alt="Previous Press">
 
-
 You just got a new client, and you need to start building a new media list for them. I was wondering if there were ways to use press they already had about them to build a new list. I started with a client name, and was able to end up with a new media list. I didn't use any products/tools to achieve this. Mostly just found a good framework to use.
 
 ### Find All Mentions Your Client Has Gotten
@@ -75,6 +74,8 @@ Great. Now you have 2 key pieces of information: new publications, and a good un
 For example, I know that the beats that write about Equinox are "Lifestyle & Parties". This was from the press I found about them. You should have a bunch of different beats from the press you gathered.
 
 For each of the new publications, find the reporters that write for each of those beats. Find a "Lifestyle" beat writer at Apparel Magazine, Stores Magazine, and others. You can use a Media Database to achieve this - or Google it! As you go through each of these publications & beats, you should have gathered a bunch of new reporters!
+
+### Further reading
 
 From our blog:
 
