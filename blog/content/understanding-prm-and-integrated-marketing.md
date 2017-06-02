@@ -21,8 +21,6 @@ seo_tags = "Campaign, measuring, measurement, "
 
 As someone still learning about PR, I've been finding more and more PR agencies that become integrated marketing agencies. At first, they seemed a little confusing to me. I thought the key advantage of a PR agency was being experts at PR, and integrating the different aspects of marketing would reduce that competitive advantage. However, I did not account for the direct business outcomes that the integration would bring for the client. The key advantages of integrating all the marketing communications sent by a particular company seems interesting, since you'll be able to control their voice across all channels.
 
-
-
 "Growing diversity among products, consumers, and media make for an increasingly competitive marketplace that challenges organizations to use a wide range of tools to achieve core marketing objectives, and to do so effectively and efficiently. That’s where IMC comes into play" (Friedman, 3).
 
 ### Further reading
