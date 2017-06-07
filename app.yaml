@@ -44,6 +44,9 @@ handlers:
 - url: /termsofservice/?
   static_files: public/termsofservice.html
   upload: public/termsofservice.html
+- url: /prcouture/?
+  static_files: public/prcouture.html
+  upload: public/prcouture.html
 - url: /privacy/?
   static_files: public/privacy.html
   upload: public/privacy.html
