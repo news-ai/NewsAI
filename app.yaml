@@ -14,42 +14,39 @@ handlers:
 - url: /feed
   static_files: public/blog/index.xml
   upload: public/blog/index.xml
-- url: /free-media-lists/?
-  static_files: public/free-media-lists.html
-  upload: public/free-media-lists.html
-- url: /free-media-list/?
-  static_files: public/free-media-lists.html
-  upload: public/free-media-lists.html
-- url: /security/?
-  static_files: public/security.html
-  upload: public/security.html
-- url: /daily-email/?
-  static_files: public/daily-email.html
-  upload: public/daily-email.html
-- url: /email/?
-  static_files: public/email.html
-  upload: public/email.html
-- url: /social-sync/?
-  static_files: public/social-sync.html
-  upload: public/social-sync.html
-- url: /search-and-filter/?
-  static_files: public/search-and-filter.html
-  upload: public/search-and-filter.html
-- url: /get-started/?
-  static_files: public/get-started.html
-  upload: public/get-started.html
-- url: /pricing/?
-  static_files: public/pricing.html
-  upload: public/pricing.html
-- url: /termsofservice/?
-  static_files: public/termsofservice.html
-  upload: public/termsofservice.html
-- url: /prcouture/?
-  static_files: public/prcouture.html
-  upload: public/prcouture.html
-- url: /privacy/?
-  static_files: public/privacy.html
-  upload: public/privacy.html
+# - url: /free-media-lists/?
+#   static_files: public/free-media-lists.html
+#   upload: public/free-media-lists.html
+# - url: /security/?
+#   static_files: public/security.html
+#   upload: public/security.html
+# - url: /daily-email/?
+#   static_files: public/daily-email.html
+#   upload: public/daily-email.html
+# - url: /email/?
+#   static_files: public/email.html
+#   upload: public/email.html
+# - url: /social-sync/?
+#   static_files: public/social-sync.html
+#   upload: public/social-sync.html
+# - url: /search-and-filter/?
+#   static_files: public/search-and-filter.html
+#   upload: public/search-and-filter.html
+# - url: /get-started/?
+#   static_files: public/get-started.html
+#   upload: public/get-started.html
+# - url: /pricing/?
+#   static_files: public/pricing.html
+#   upload: public/pricing.html
+# - url: /termsofservice/?
+#   static_files: public/termsofservice.html
+#   upload: public/termsofservice.html
+# - url: /prcouture/?
+#   static_files: public/prcouture.html
+#   upload: public/prcouture.html
+# - url: /privacy/?
+#   static_files: public/privacy.html
+#   upload: public/privacy.html
 - url: /blog/feed/
   static_files: public/blog/index.xml
   upload: public/blog/index.xml
