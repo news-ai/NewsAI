@@ -1,37 +1,60 @@
 window.Intercom("boot", {
-  app_id: "ur8dbk9e"
+    app_id: "ur8dbk9e"
 });
 
-function openModal(){
+$.urlParam = function(name) {
+    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    if (results == null) {
+        return null;
+    } else {
+        return results[1] || 0;
+    }
+}
+
+var codeParameter = $.urlParam('code');
+var emailParameter = $.urlParam('email');
+
+if (!codeParameter) {
+    codeParameter = '';
+}
+
+if (!emailParameter) {
+    emailParameter = '';
+}
+
+var baseUrl = 'https://tabulae.newsai.org/api/auth/registration?code=' + codeParameter + '&email=' + emailParameter;
+$("#get-started").attr("href", baseUrl)
+
+function openModal() {
     todayDateString = new Date().toJSON().slice(0, 10)
     vex.dialog.open({
         message: 'Fill out the form below, and someone on the NewsAI team will get in touch with you very soon!',
         input: [
             '<style>',
-                '.vex-custom-field-wrapper {',
-                    'margin: 1em 0;',
-                '}',
-                '.vex-custom-field-wrapper > label {',
-                    'display: inline-block;',
-                    'margin-bottom: .2em;',
-                '}',
+            '.vex-custom-field-wrapper {',
+            'margin: 1em 0;',
+            '}',
+            '.vex-custom-field-wrapper > label {',
+            'display: inline-block;',
+            'margin-bottom: .2em;',
+            '}',
             '</style>',
             '<form action="http://email3.newsai.co/t/d/s/pbjhr/" method="post" id="subForm">',
-                '<p>',
-                    '<label for="fieldName">Name</label><br />',
-                    '<input id="fieldName" name="cm-name" type="text" />',
-                '</p>',
-                '<p>',
-                    '<label for="fieldEmail">Email</label><br />',
-                    '<input id="fieldEmail" name="cm-pbjhr-pbjhr" type="email" required />',
-                '</p>',
-                '<p>',
-                    '<button type="submit" class="vex-dialog-button-primary vex-dialog-button vex-first">Request demo</button>',
-                '</p>',
+            '<p>',
+            '<label for="fieldName">Name</label><br />',
+            '<input id="fieldName" name="cm-name" type="text" />',
+            '</p>',
+            '<p>',
+            '<label for="fieldEmail">Email</label><br />',
+            '<input id="fieldEmail" name="cm-pbjhr-pbjhr" type="email" required />',
+            '</p>',
+            '<p>',
+            '<button type="submit" class="vex-dialog-button-primary vex-dialog-button vex-first">Request demo</button>',
+            '</p>',
             '</form>'
         ].join(''),
         buttons: [],
-        callback: function (data) {
+        callback: function(data) {
             if (!data) {
                 return console.log('Cancelled');
             }
