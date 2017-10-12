@@ -1,15 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DocDock Theme for Hugo on Docdock</title>
-    <link>/</link>
-    <description>Recent content in DocDock Theme for Hugo on Docdock</description>
+    <title>NewsAI Pitchbook on Docdock</title>
+    <link>/pitchbook/</link>
+    <description>Recent content in NewsAI Pitchbook on Docdock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Apr 2017 18:36:24 +0200</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/pitchbook/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Clothing Wear with Free Samples</title>
+      <link>/pitchbook/pitch-to-share-a-product/clothing-wear-with-free-samples/</link>
+      <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/pitchbook/pitch-to-share-a-product/clothing-wear-with-free-samples/</guid>
+      <description>This pitch was shared by a PR professional. It&amp;rsquo;s by Elena, who runs Cross Border Communications. She wrote an article called Sample Media Pitch Letter: Highlighting Your Product. It focuses more around a consumer product that is shipped (physical product).
+Dear Editor, I think your readers would appreciate our new website called www.monthlysocks.com. We deliver a brand new pair of cushy men’s dress socks every month by mail – just like a magazine subscription.</description>
+    </item>
+    
+    <item>
+      <title>Medical Device</title>
+      <link>/pitchbook/pitch-to-connect-an-expert/medical-device/</link>
+      <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/pitchbook/pitch-to-connect-an-expert/medical-device/</guid>
+      <description>In this pitch, the contact makes an initial contact with a reporter. Caroline, a PR professional, in her article How to Write a Media Pitch (with Examples) shared this pitch:
+Hi [First Name], A recent report pointed to the frightening reality that hackers using ransomware on medical devices could pose the biggest–and most dangerous–cyber security threat in 2016, with insulin pumps and pacemakers being some of the devices most vulnerable to these risks.</description>
+    </item>
+    
+    <item>
+      <title>Sharing Personal Success</title>
+      <link>/pitchbook/pitch-yourself/sharing-successful-content/</link>
+      <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/pitchbook/pitch-yourself/sharing-successful-content/</guid>
+      <description>Alyson Shontell, in her article on A 16-Year-Old Just Crafted One Of The World&amp;rsquo;s Best Email Pitches, shared one of her favorite pithes.
+The subject of the email was Article.:
+Hi Alyson, I&#39;ll get straight to the point. I&#39;ve seen several articles on entrepreneurs you&#39;ve done, love them, and was curious if you would be interested in doing a story on me. Today a profile about me was published in The Age, The Sydney Morning Herald, WA Today, Canberra Times &amp;amp; Brisbane Times.</description>
+    </item>
+    
+    <item>
+      <title>Sharing Updates about Company</title>
+      <link>/pitchbook/pitch-a-story-idea/sharing-stats-about-company/</link>
+      <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/pitchbook/pitch-a-story-idea/sharing-stats-about-company/</guid>
+      <description>Brian Pittman, in his article PR Pros Who Rock, shared a pitch from Alexandra Valasek. Alexandra Valasek works at Twitter.
+Hi Angela, I&#39;m Allie and I&#39;m on the comms team at Twitter. I wanted to see if you&#39;d like to do a piece about motherhood and Twitter for an upcoming issue of USN&amp;amp;WR. I&#39;ve listed a few items below that could come together to make a story about how Twitter is playing a major role in new moms&#39; lives.</description>
+    </item>
+    
+    <item>
+      <title>iOS App Launch</title>
+      <link>/pitchbook/pitch-to-share-a-product/ios-app/</link>
+      <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/pitchbook/pitch-to-share-a-product/ios-app/</guid>
+      <description>This pitch was shared on The Next Web. The article was called Pitch perfect: A startup’s guide to getting coverage by Paul Sawers, a reporter. Paul shares his &amp;ldquo;perfect pitch email&amp;rdquo;:
+Hi [First Name], I’m [full name], founder of a London-based startup called [name + link to website], and I think you may be interested in our new product. We’ve developed a GPS-powered app that helps drivers instantly see how much they’re spending on petrol with each journey they make, and whilst there are similar apps out there (e.</description>
+    </item>
     
   </channel>
 </rss>

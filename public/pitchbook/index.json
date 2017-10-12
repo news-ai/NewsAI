@@ -1,20 +1,83 @@
 [
 {
-	"uri": "/",
-	"title": "DocDock Theme for Hugo",
+	"uri": "/pitchbook/pitch-to-share-a-product/",
+	"title": "Pitch to Share a Product",
 	"tags": [],
 	"description": "",
-	"content": " Hugo docDock theme Hugo-theme-docdock   is a theme for Hugo, a fast and modern static website engine written in Go. Hugo is often used for blogs, this theme is fully designed for documentation.\nThis theme is a partial porting of the Learn theme of matcornic  .\ndocDock works with a \u0026ldquo;page tree structure\u0026rdquo; to organize content : All contents are pages, which belong to other pages. [read more about this]()  Main features Contribute to this documentation Feel free to update this content, just click the Edit this page link displayed on top right of each page, and pullrequest it Your modification will be deployed automatically when merged. Documentation website This current documentation has been statically generated with Hugo with a simple command : hugo -t docdock \u0026ndash; source code is available here at GitHub  \nAutomated deployments Automatically published and hosted thanks to Netlify.\nRead more about Automated HUGO deployments with Netlify\n Netlify builds, deploys, and hosts frontends.  "
+	"content": ""
 },
 {
-	"uri": "/categories/",
+	"uri": "/pitchbook/pitch-a-story-idea/",
+	"title": "Pitch a Story Idea",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/pitchbook/pitch-to-connect-an-expert/",
+	"title": "Pitch to Connect an Expert",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/pitchbook/pitch-yourself/",
+	"title": "Pitch Yourself",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/pitchbook/pitch-to-share-a-product/clothing-wear-with-free-samples/",
+	"title": "Clothing Wear with Free Samples",
+	"tags": [],
+	"description": "",
+	"content": "This pitch was shared by a PR professional. It\u0026rsquo;s by Elena, who runs Cross Border Communications. She wrote an article called Sample Media Pitch Letter: Highlighting Your Product. It focuses more around a consumer product that is shipped (physical product).\nDear Editor, I think your readers would appreciate our new website called www.monthlysocks.com. We deliver a brand new pair of cushy men’s dress socks every month by mail – just like a magazine subscription. For about $6 a month including shipping anywhere in Canada and the US, subscribers have the benefit of having at least one matched pair of socks in their drawer, eliminating the panic of having to buy them at the airport drugstore. Jude, a customer, says: \u0026quot;I thought the idea of getting socks in the mail was funny, whimsical, and practical. How many gifts can you say that about? I got a subscription for my husband who, like most of us, always intends to buy new socks but just never gets around to it. I can’t tell you how many times we’ve been out, the shoes come off, and there are his toes, a glowing white beacon of embarrassment. My husband was a little skeptical about this service-until the first pair of socks arrived. They’re very well made, soft, and the padding on the bottom feels great. I know because I’ve 'borrowed' them several times, as has my daughter.\u0026quot; I would be happy to send you a sample so you can credibly prove to your readers that this is in fact a great product and service. I appreciate your time and consideration for what www.monthlysocks.com has to offer. If you’re interested in learning more, please email Elena Verlee at email@address.com or call me at 123-4567-890.  This, to me, seemed more emotional than the other ones. It had a long quote from a customer who had used it, and it provided a sample for the reporter. The testimonial made it stronger, since you\u0026rsquo;re able to feel the impact of what the service does. I learnt:\n Sometimes long pitches are fine if they portray a story Giving away a sample if it\u0026rsquo;s a sample product is good Going straight to the point at the beginning is powerful  "
+},
+{
+	"uri": "/pitchbook/pitch-to-connect-an-expert/medical-device/",
+	"title": "Medical Device",
+	"tags": [],
+	"description": "",
+	"content": "In this pitch, the contact makes an initial contact with a reporter. Caroline, a PR professional, in her article How to Write a Media Pitch (with Examples) shared this pitch:\nHi [First Name], A recent report pointed to the frightening reality that hackers using ransomware on medical devices could pose the biggest–and most dangerous–cyber security threat in 2016, with insulin pumps and pacemakers being some of the devices most vulnerable to these risks. For this reason, I wanted to see if you were interested in speaking with [First Name], a leading encryption and cybersecurity expert, DARPA contractor, and a professor in NJIT’s Computer Science program. He has been conducting research on security and homomorphic encryption of embedded medical devices and can discuss the severity of this looming threat and the ways that we can leverage new protection techniques against this potentially fatal new cybercrime tactic. Please let me know if you’re interested. Thanks for your time. Caroline Khalili Circa Interactive circaedu.com  From this I learnt:\n Find the right reporter at a publication (or none of the text would have made sense to them) Be specific about the problem Give a short background of why your expert is impressive \u0026amp; relevant Pitch experts that are relevant now (Caroline included a \u0026ldquo;recent report\u0026rdquo;)  "
+},
+{
+	"uri": "/pitchbook/",
+	"title": "NewsAI Pitchbook",
+	"tags": [],
+	"description": "",
+	"content": " Pitchbook We\u0026rsquo;re looking to catalog pitches from many different verticals and for many different situations. We\u0026rsquo;re slowly increasing our content, but you should be able to click through and see some pitches. We have some main catagories:\n Pitch Yourself Pitch a Story Idea Pitch to Connect an Expert Pitch to Share a Product  "
+},
+{
+	"uri": "/pitchbook/pitch-yourself/sharing-successful-content/",
+	"title": "Sharing Personal Success",
+	"tags": [],
+	"description": "",
+	"content": "Alyson Shontell, in her article on A 16-Year-Old Just Crafted One Of The World\u0026rsquo;s Best Email Pitches, shared one of her favorite pithes.\nThe subject of the email was Article.:\nHi Alyson, I'll get straight to the point. I've seen several articles on entrepreneurs you've done, love them, and was curious if you would be interested in doing a story on me. Today a profile about me was published in The Age, The Sydney Morning Herald, WA Today, Canberra Times \u0026amp; Brisbane Times. Last time I spoke with the journalist, it has been viewed more than 180,000 times. All feedback I've read about the story has been very positive. I've had offers from several newspapers, television stations and radios but I'd love nothing more than to be featured on business insider. Let me know your thoughts. Cheers! -- Regards, Xavier Di Petta  I found this to be a great pitch. It got straight to the point \u0026amp; let the reporter know why they should post a story on them. Xavier is pitching himself, but he adds other publications that posted a story on him. I learnt:\n Brand your client - where they have been published before Tell them what\u0026rsquo;s impressive or the story about them Short \u0026amp; to the point Personalized to the reporter - easily know that he read her stories  "
+},
+{
+	"uri": "/pitchbook/pitch-a-story-idea/sharing-stats-about-company/",
+	"title": "Sharing Updates about Company",
+	"tags": [],
+	"description": "",
+	"content": "Brian Pittman, in his article PR Pros Who Rock, shared a pitch from Alexandra Valasek. Alexandra Valasek works at Twitter.\nHi Angela, I'm Allie and I'm on the comms team at Twitter. I wanted to see if you'd like to do a piece about motherhood and Twitter for an upcoming issue of USN\u0026amp;WR. I've listed a few items below that could come together to make a story about how Twitter is playing a major role in new moms' lives. Let me know what you think. - There are tons of accounts targeted towards moms on Twitter like @Babble or @parenting with 380,000 followers. - Hashtags like #moms and #breastfeeding are a constant point of conversation on Twitter - Etc. [rest redacted for this post]  Alexandra used bullet points to break down the interesting tidbits about the story. The reporter who she was pitching to enjoyed the simplicity of the pitch. I learnt:\n Bullet points are useful to point out interesting facts A short summary of what you\u0026rsquo;re pitching is important Be specific and give interesting numbers (if you have them) Outline who your client is \u0026amp; who you are early on  "
+},
+{
+	"uri": "/pitchbook/pitch-to-share-a-product/ios-app/",
+	"title": "iOS App Launch",
+	"tags": [],
+	"description": "",
+	"content": "This pitch was shared on The Next Web. The article was called Pitch perfect: A startup’s guide to getting coverage by Paul Sawers, a reporter. Paul shares his \u0026ldquo;perfect pitch email\u0026rdquo;:\nHi [First Name], I’m [full name], founder of a London-based startup called [name + link to website], and I think you may be interested in our new product. We’ve developed a GPS-powered app that helps drivers instantly see how much they’re spending on petrol with each journey they make, and whilst there are similar apps out there (e.g. xxx and xxx), this is the first time an app has been created that uses up-to-date, real-time data from local service stations around the world. We are releasing the Android version next week, and we expect the iOS version to be approved shortly after. I’ve attached a few screenshots of what the app looks like, and here’s a link to a video that demos exactly how it works. I thought I’d give you first refusal to review this app before contacting other publications. If you could let me know if you’re keen to learn more, I’d appreciate it. Thanks a lot for your time. Name Position Telephone number Twitter Handle  This shares a product that gives a reporter exclusive to write about it. It gives the journalist plenty of time to take a look before it is released. What I learnt from this:\n Avoid Buzzwords. Be direct Short \u0026amp; to the point Share link to the website or to the product Acknowledge similar apps (so they can reference market) Attach social details at the bottom Politely let me know if it\u0026rsquo;s an exclusive or not  "
+},
+{
+	"uri": "/pitchbook/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tags/",
+	"uri": "/pitchbook/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",

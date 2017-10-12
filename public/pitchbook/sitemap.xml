@@ -2,17 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/</loc>
+    <loc>/pitchbook/pitch-to-share-a-product/</loc>
     <lastmod>2017-04-24T18:36:24+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/pitchbook/pitch-a-story-idea/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pitchbook/pitch-to-connect-an-expert/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pitchbook/pitch-yourself/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pitchbook/pitch-to-share-a-product/clothing-wear-with-free-samples/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pitchbook/pitch-to-connect-an-expert/medical-device/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pitchbook/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pitchbook/pitch-yourself/sharing-successful-content/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pitchbook/pitch-a-story-idea/sharing-stats-about-company/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pitchbook/pitch-to-share-a-product/ios-app/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pitchbook/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/pitchbook/tags/</loc>
     <priority>0</priority>
   </url>
   
