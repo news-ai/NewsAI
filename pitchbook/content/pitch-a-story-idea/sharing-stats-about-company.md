@@ -1,5 +1,5 @@
 +++
-title = "Sharing Updates about Company"
+title = "Sharing Updates About a Company"
 description = ""
 date = "2017-04-24T18:36:24+02:00"
 
@@ -7,7 +7,7 @@ date = "2017-04-24T18:36:24+02:00"
 
 Brian Pittman, in his article [PR Pros Who Rock](https://www.bulldogreporter.com/pr-pros-who-rock-three-winning-agencies-and-pitches-that-hooked-essence-redbook-and/), shared a pitch from Alexandra Valasek. Alexandra Valasek works at Twitter.
 
-```
+```text
 Hi Angela,
 
 I'm Allie and I'm on the comms team at Twitter. I wanted to see if you'd like to do a piece about motherhood and Twitter for an upcoming issue of USN&WR. I've listed a few items below that could come together to make a story about how Twitter is playing a major role in new moms' lives. Let me know what you think.

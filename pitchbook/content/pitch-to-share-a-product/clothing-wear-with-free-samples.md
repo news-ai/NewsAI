@@ -8,7 +8,7 @@ date = "2017-04-24T18:36:24+02:00"
 This pitch was shared by a PR professional. It's by Elena, who runs [Cross Border Communications](http://crossborderpr.com/). She wrote an article called [Sample Media Pitch Letter: Highlighting Your Product](http://prinyourpajamas.com/media-pitch-sample/). It focuses more around a consumer product that is shipped (physical product).
 
 
-```
+```text
 Dear Editor,
 
 I think your readers would appreciate our new website called www.monthlysocks.com.

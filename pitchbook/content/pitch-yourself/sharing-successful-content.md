@@ -9,7 +9,7 @@ Alyson Shontell, in her article on [A 16-Year-Old Just Crafted One Of The World'
 
 The subject of the email was `Article.`:
 
-```
+```text
 Hi Alyson,
 
 I'll get straight to the point. I've seen several articles on entrepreneurs you've done, love them, and was curious if you would be interested in doing a story on me. Today a profile about me was published in The Age, The Sydney Morning Herald, WA Today, Canberra Times & Brisbane Times. Last time I spoke with the journalist, it has been viewed more than 180,000 times. All feedback I've read about the story has been very positive. I've had offers from several newspapers, television stations and radios but I'd love nothing more than to be featured on business insider. Let me know your thoughts. Cheers!
