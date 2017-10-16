@@ -43,7 +43,17 @@
   
   <url>
     <loc>https://www.newsai.co/blog/</loc>
-    <lastmod>2017-06-08T19:00:00+07:00</lastmod>
+    <lastmod>2017-10-16T11:00:00+07:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.newsai.co/blog/5-reasons-why-small-agencies-must-use-software/</loc>
+    <lastmod>2017-10-16T11:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/7-tips-on-how-to-approach-pr-as-a-small-business/</loc>
+    <lastmod>2017-10-09T11:00:00+07:00</lastmod>
   </url>
   
   <url>
@@ -62,6 +72,11 @@
   </url>
   
   <url>
+    <loc>https://www.newsai.co/blog/4-ways-of-using-snapchat-for-your-pr-efforts/</loc>
+    <lastmod>2017-04-20T11:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.newsai.co/blog/use-previous-press-to-find-new-influencers-twitter/</loc>
     <lastmod>2017-04-13T11:00:00+07:00</lastmod>
   </url>
@@ -75,7 +90,7 @@
     <loc>https://www.newsai.co/blog/use-previous-press-to-find-new-journalists/</loc>
     <lastmod>2017-03-30T11:00:00+07:00</lastmod>
   </url>
-
+  
   <url>
     <loc>https://www.newsai.co/blog/best-pr-blogs/</loc>
     <lastmod>2017-03-23T19:00:00+07:00</lastmod>
@@ -83,7 +98,7 @@
   
   <url>
     <loc>https://www.newsai.co/blog/6-ways-to-perfect-your-pitch/</loc>
-    <lastmod>2017-03-17T19:00:00+07:00</lastmod>
+    <lastmod>2017-03-16T19:00:00+07:00</lastmod>
   </url>
   
   <url>
@@ -177,77 +192,186 @@
   </url>
   
   <url>
-    <loc>https://www.newsai.co/blog/narrow-down-influencer-list/</loc>
-    <lastmod>2016-11-14T15:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.newsai.co/blog/tips-to-be-more-efficient-on-tabulae/</loc>
-    <lastmod>2016-11-14T14:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.newsai.co/blog/how-to-create-email-templates/</loc>
-    <lastmod>2016-11-14T14:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.newsai.co/blog/how-to-use-contact-profile-effectively/</loc>
-    <lastmod>2016-11-14T14:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.newsai.co/blog/how-to-embed-images/</loc>
-    <lastmod>2016-11-14T11:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.newsai.co/blog/how-to-make-an-instagram-timeline/</loc>
-    <lastmod>2016-11-14T11:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.newsai.co/blog/how-to-upload-a-list/</loc>
-    <lastmod>2016-11-14T11:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.newsai.co/blog/how-to-use-email-analytics/</loc>
-    <lastmod>2016-11-14T11:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.newsai.co/blog/how-to-use-daily-emails/</loc>
-    <lastmod>2016-11-13T19:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.newsai.co/blog/how-to-add-rss-feeds-to-contacts/</loc>
-    <lastmod>2016-11-13T11:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.newsai.co/blog/how-to-search/</loc>
-    <lastmod>2016-11-13T11:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.newsai.co/blog/how-to-view-client-directory/</loc>
-    <lastmod>2016-11-12T11:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.newsai.co/blog/how-to-add-tags-to-list/</loc>
-    <lastmod>2016-11-12T11:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.newsai.co/blog/how-to-manage-columns/</loc>
-    <lastmod>2016-11-12T11:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.newsai.co/blog/sick-of-updating/</loc>
     <lastmod>2016-08-02T14:19:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/best-pitch/</loc>
+    <lastmod>2017-03-07T19:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/campaign/</loc>
+    <lastmod>2017-06-01T19:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/excel/</loc>
+    <lastmod>2017-06-08T19:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/fashion/</loc>
+    <lastmod>2016-12-01T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/categories/fashion/</loc>
+    <lastmod>2016-12-01T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/categories/free/</loc>
+    <lastmod>2016-12-01T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/how-to/</loc>
+    <lastmod>2017-01-19T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/influencer/</loc>
+    <lastmod>2017-10-16T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/influencer-discovery/</loc>
+    <lastmod>2016-12-02T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/measurement/</loc>
+    <lastmod>2017-06-01T19:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/media-database/</loc>
+    <lastmod>2017-02-07T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/media-list/</loc>
+    <lastmod>2017-02-22T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/media-list-management/</loc>
+    <lastmod>2016-08-02T14:19:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/media-lists/</loc>
+    <lastmod>2016-12-01T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/categories/media-lists/</loc>
+    <lastmod>2016-12-01T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/metrics/</loc>
+    <lastmod>2017-02-16T19:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/</loc>
+    <lastmod>2017-10-16T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/personal-tip/</loc>
+    <lastmod>2017-01-19T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/personalization/</loc>
+    <lastmod>2017-03-13T19:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/pitch-success/</loc>
+    <lastmod>2017-03-16T19:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/pr-blogs/</loc>
+    <lastmod>2017-03-23T19:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/pr-workflow/</loc>
+    <lastmod>2016-08-02T14:19:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/productivity/</loc>
+    <lastmod>2017-01-30T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/categories/productivity/</loc>
+    <lastmod>2017-10-16T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/reporter/</loc>
+    <lastmod>2017-03-30T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/rss/</loc>
+    <lastmod>2017-01-19T11:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/social-crms/</loc>
+    <lastmod>2016-11-17T19:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/</loc>
+    <lastmod>2017-03-07T19:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.newsai.co/blog/tags/tools/</loc>
+    <lastmod>2017-01-30T11:00:00+07:00</lastmod>
+    <priority>0</priority>
   </url>
 </urlset>
